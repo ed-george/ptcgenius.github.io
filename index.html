@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="archive">
+
+  {% assign decks_by_era = site.decks | group_by: "era" %}
+  {% for era in decks_by_era %}
+  <h1 class="archive-year">{{ era.name }}</h1>
+    {% for deck in era.items %}
+    <div class="archive-item">
+      <a href="{{ deck.url | relative_url}}" class="archive-title fs-4">{{ deck.title }}</a>
+    </div>
+    {% endfor %}
+{% endfor %}
+
+</div>

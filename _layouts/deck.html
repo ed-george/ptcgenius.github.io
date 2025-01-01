@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<p><strong>Era:</strong> {{ page.era }}</p>
+{% if page.description %}<p><strong>Description:</strong> {{ page.description }}</p>{% endif %}
+
+{% if page.links %}
+<p>
+<strong>Links:</strong>
+<ul>
+{% for link in page.links %}
+<li><a href="{{link.href}}" target="_blank">{{link.title}}</a></li>
+{% endfor %}
+</ul>
+</p>
+{% endif %}
+
+<hr>
+
+<h2>Decklist</h2>
+
+<h4>Pokémon</h4>
+<ul>
+  {% for pokemon in page.cards.pokemon %}
+    <li>{{ pokemon.quantity }}&times; {{ pokemon.name }} <span class="set-info text-muted">({{ pokemon.set }} {{ pokemon.number }})</span></li>
+  {% endfor %}
+</ul>
+
+<h4>Trainers</h4>
+<ul>
+  {% for trainer in page.cards.trainers %}
+    <li>{{ trainer.quantity }}&times; {{ trainer.name }} <span class="set-info text-muted">({{ trainer.set }} {{ trainer.number }})</span></li>
+  {% endfor %}
+</ul>
+
+<h4>Energy</h4>
+<ul>
+  {% for energy in page.cards.energy %}
+    <li>{{ energy.quantity }}&times; {{ energy.name }} <span class="set-info text-muted">({{ energy.set }} {{ energy.number }})</span></li>
+  {% endfor %}
+</ul>

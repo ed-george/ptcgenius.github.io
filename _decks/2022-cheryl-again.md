@@ -1,0 +1,111 @@
+---
+title: Cheryl Again
+layout: deck
+era: 2022
+description: 2nd Place World Championships 2022 - Seniors - Sebastian Lashmet
+links:
+  - href: https://limitlesstcg.com/decks/list/12857
+    title: Limitless Page
+  - href: https://bulbapedia.bulbagarden.net/wiki/Cheryl_Again_(TCG)
+    title: Bulbapedia
+cards:
+  pokemon:
+    - name: Arceus V
+      set: BRS
+      number: 122
+      quantity: 4
+    - name: Arceus VSTAR
+      set: BRS
+      number: 123
+      quantity: 3
+    - name: Flying Pikachu V
+      set: CEL
+      number: 6
+      quantity: 3
+    - name: Flying Pikachu VMAX
+      set: CEL
+      number: 7
+      quantity: 2
+    - name: Hisuian Decidueye V
+      set: ASR
+      number: 83
+      quantity: 2
+    - name: Hisuian Decidueye VSTAR
+      set: ASR
+      number: 84
+      quantity: 2
+    - name: Bidoof
+      set: BRS
+      number: 120
+      quantity: 2
+    - name: Bibarel
+      set: BRS
+      number: 121
+      quantity: 2
+    - name: Crobat V
+      set: DAA
+      number: 104
+      quantity: 1
+    - name: Lumineon V
+      set: BRS
+      number: 40
+      quantity: 1
+    - name: Pumpkaboo
+      set: EVS
+      number: 76
+      quantity: 1
+  trainers:
+    - name: Marnie
+      set: SSH
+      number: 169
+      quantity: 4
+    - name: Boss's Orders
+      set: BRS
+      number: 132
+      quantity: 4
+    - name: Professor's Research
+      set: BRS
+      number: 147
+      quantity: 2
+    - name: Raihan
+      set: EVS
+      number: 152
+      quantity: 1
+    - name: Quick Ball
+      set: FST
+      number: 237
+      quantity: 4
+    - name: Ultra Ball
+      set: BRS
+      number: 150
+      quantity: 4
+    - name: Evolution Incense
+      set: SSH
+      number: 163
+      quantity: 1
+    - name: Switch
+      set: SSH
+      number: 183
+      quantity: 1
+    - name: Path to the Peak
+      set: CRE
+      number: 148
+      quantity: 4
+  energy:
+    - name: Double Turbo Energy
+      set: BRS
+      number: 151
+      quantity: 4
+    - name: Lightning Energy
+      set: Energy
+      number: 48
+      quantity: 4
+    - name: Fighting Energy
+      set: Energy
+      number: 50
+      quantity: 3
+    - name: Capture Energy
+      set: RCL
+      number: 171
+      quantity: 1
+---
