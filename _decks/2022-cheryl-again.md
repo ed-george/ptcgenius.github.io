@@ -10,102 +10,126 @@ links:
     title: Bulbapedia
 cards:
   pokemon:
-    - name: Arceus V
-      set: BRS
-      number: 122
+    - name: Sobble
+      set: CRE
+      number: 41
       quantity: 4
-    - name: Arceus VSTAR
-      set: BRS
-      number: 123
+    - name: Drizzile
+      set: SSH
+      number: 56
       quantity: 3
-    - name: Flying Pikachu V
-      set: CEL
-      number: 6
+    - name: Inteleon
+      set: SSH
+      number: 58
+      quantity: 2
+    - name: Inteleon
+      set: CRE
+      number: 43
+      quantity: 1
+    - name: Rapid Strike Urshifu V
+      set: BST
+      number: 87
       quantity: 3
-    - name: Flying Pikachu VMAX
-      set: CEL
-      number: 7
+    - name: Rapid Strike Urshifu VMAX
+      set: BST
+      number: 88
       quantity: 2
-    - name: Hisuian Decidueye V
-      set: ASR
-      number: 83
+    - name: Remoraid
+      set: BST
+      number: 36
       quantity: 2
-    - name: Hisuian Decidueye VSTAR
-      set: ASR
-      number: 84
+    - name: Octillery
+      set: BST
+      number: 37
       quantity: 2
-    - name: Bidoof
+    - name: Manaphy
       set: BRS
-      number: 120
-      quantity: 2
-    - name: Bibarel
-      set: BRS
-      number: 121
-      quantity: 2
-    - name: Crobat V
-      set: DAA
-      number: 104
+      number: 41
       quantity: 1
-    - name: Lumineon V
-      set: BRS
-      number: 40
-      quantity: 1
-    - name: Pumpkaboo
+    - name: Medicham V
       set: EVS
-      number: 76
+      number: 83
       quantity: 1
   trainers:
-    - name: Marnie
-      set: SSH
-      number: 169
+    - name: Irida
+      set: ASR
+      number: 147
       quantity: 4
+    - name: Cheryl
+      set: BST
+      number: 123
+      quantity: 2
     - name: Boss's Orders
       set: BRS
       number: 132
-      quantity: 4
-    - name: Professor's Research
-      set: BRS
-      number: 147
-      quantity: 2
-    - name: Raihan
-      set: EVS
-      number: 152
       quantity: 1
-    - name: Quick Ball
-      set: FST
-      number: 237
-      quantity: 4
-    - name: Ultra Ball
-      set: BRS
+    - name: Marnie
+      set: SSH
+      number: 169
+      quantity: 1
+    - name: Roxanne
+      set: ASR
       number: 150
+      quantity: 1
+    - name: Scoop Up Net
+      set: RCL
+      number: 165
       quantity: 4
     - name: Evolution Incense
       set: SSH
       number: 163
-      quantity: 1
-    - name: Switch
+      quantity: 3
+    - name: Level Ball
+      set: BST
+      number: 129
+      quantity: 3
+    - name: Energy Search
       set: SSH
-      number: 183
+      number: 161
+      quantity: 2
+    - name: Quick Ball
+      set: FST
+      number: 237
+      quantity: 2
+    - name: Escape Rope
+      set: BST
+      number: 125
       quantity: 1
-    - name: Path to the Peak
-      set: CRE
-      number: 148
-      quantity: 4
-  energy:
-    - name: Double Turbo Energy
+    - name: Hisuian Heavy Ball
+      set: ASR
+      number: 146
+      quantity: 1
+    - name: Ordinary Rod
+      set: SSH
+      number: 171
+      quantity: 1
+    - name: Pal Pad
+      set: SSH
+      number: 172
+      quantity: 1
+    - name: Rescue Carrier
+      set: EVS
+      number: 154
+      quantity: 1
+    - name: Ultra Ball
       set: BRS
-      number: 151
-      quantity: 4
-    - name: Lightning Energy
-      set: Energy
-      number: 48
+      number: 150
+      quantity: 1
+    - name: Tool Jammer
+      set: BST
+      number: 136
+      quantity: 1
+    - name: Tower of Waters
+      set: BST
+      number: 138
+      quantity: 2
+  energy:
+    - name: Rapid Strike Energy
+      set: BST
+      number: 140
       quantity: 4
     - name: Fighting Energy
       set: Energy
       number: 50
       quantity: 3
-    - name: Capture Energy
-      set: RCL
-      number: 171
-      quantity: 1
 ---
