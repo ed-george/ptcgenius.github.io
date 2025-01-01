@@ -10,7 +10,7 @@ I'm Ed Holloway-George, a pretty bad <span class="smol">(but enthusiastic)</span
 
 I have played the Pokemon TCG online since 2012 and played semi-regularly IRL since 2016. I started both my 'competative' and 'judging' journeys in the 2024 season and now can be found regularly at events within the East Midlands! You may also know me from X where I post under [@PTCGenius](https://x.com/PTCGenius).
 
-Outside of PTCG, I am a mobile app developer, Google Developer Expert, conference speaker, blogger and more. You can find out more about me @ <a href ="http://spght.dev" class="spght">spght.dev</a>
+Outside of PTCG, I am a mobile app developer, Google Developer Expert, conference speaker, blogger and more. You can find out more about all that @ <a href ="http://spght.dev" class="spght">spght.dev</a> 🍝
 
 <h5>"Ok, so what's all this site about then?"</h5>
 
@@ -37,8 +37,30 @@ Of course! Please do drop me a message via social(s) if you do so though
 | Pokémon GO Friend Code         | 158781632204        |
 | Pokémon Sleep Friend Code      | 7743-6534-5631      |
 
+<h5>"I want to learn more about retro-decks but I don't know how?!"</h5>
+
+Over the years I have found a whole heap of great resources that have helped me learn about decks across a range of eras and different formats
+
+* [Limitless TCG](https://limitlesstcg.com/decks) &bull; <span class="badge rounded-pill bg-primary">Modern</span>
+* [Pokedata](https://pokedata.ovh/) &bull; <span class="badge rounded-pill bg-primary">Modern</span>
+* [PTCG Legends](https://www.ptcglegends.com/) &bull; <span class="badge rounded-pill bg-primary">Modern</span> &bull; <span class="badge rounded-pill bg-success">Retro</span>
+* [PTCG Retro Library](https://retro-library.com/) &bull; <span class="badge rounded-pill bg-success">Retro</span> &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
+* [Jason Klaczynski's Blog](https://jklaczpokemon.com/) &bull; <span class="badge rounded-pill bg-success">Retro</span> &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
+* [Top Cut Events](https://www.topcutevents.com/pokeacutemon-retro-decks.html) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+* [Holon Research Tower](http://holonresearchtower.com/) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
+* Content creators / players such as:
+  * [TheJWittz](https://www.youtube.com/@TheJWittz/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [Pooka](https://www.youtube.com/@TheTopCut/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [Team Fish Knuckles](https://www.youtube.com/@teamfishknuckles/videos) &bull; <span class="badge rounded-pill bg-primary">Modern</span> &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [@Whimsicast](https://x.com/Pkmn_RubyRetro) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [@Pkmn_RubyRetro](https://x.com/Pkmn_RubyRetro) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [@holon_phantom](https://x.com/holon_phantom) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * _and many more..._
+
 <hr>
 
 Finally, Thanks for checking the site out - I hope to catch you at an event very soon! ✌️
+
+<span class="spght">Ed :)</span>
 
 ![]({{site.baseurl}}/assets/images/about.jpg)
