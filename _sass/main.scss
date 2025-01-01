@@ -79,6 +79,25 @@ pre.highlight {
   font-size: x-small;
 }
 
+.report-issue {
+  font-size: x-small;
+}
+
+.smol {
+  font-size: x-small;
+}
+
+.love {
+  color: #FF3355;
+}
+
+.spght,
+.spght:hover,
+.spght:focus {
+  color: #009975;
+  text-decoration: none;
+}
+
 @media (prefers-color-scheme: dark) {
   .footer-icon-links {
     text-decoration: none;

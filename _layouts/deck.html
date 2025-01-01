@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1> 
+
+<hr>
 
 <p><strong>Era:</strong> {{ page.era }}</p>
 {% if page.description %}<p><strong>Description:</strong> {{ page.description }}</p>{% endif %}
@@ -42,3 +44,9 @@ layout: default
     <li>{{ energy.quantity }}&times; {{ energy.name }} <span class="set-info text-muted">({{ energy.set }} {{ energy.number }})</span></li>
   {% endfor %}
 </ul>
+
+<hr>
+
+<span class="report-issue text-muted">Something look wrong? - Report a decklist issue <a href="https://github.com/ed-george/ptcgenius.github.io/issues/new?assignees=ed-george&labels=bug&projects=&template=deck-list-issue.md&title=%5BERROR%5D+Decklist%3A+{{ page.title | url_encode }}+{{ page.era | url_encode }}+-+%28{{page.name | url_encode}}%29">here</a></span>
+
+<hr>
