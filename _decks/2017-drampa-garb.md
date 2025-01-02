@@ -91,8 +91,8 @@ cards:
       quantity: 2
   energy:
     - name: Psychic Energy
-      set: Energy
-      number: 22
+      set: SUM
+      number: P
       quantity: 5
     - name: Rainbow Energy
       set: SUM

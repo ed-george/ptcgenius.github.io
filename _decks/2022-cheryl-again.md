@@ -129,7 +129,7 @@ cards:
       number: 140
       quantity: 4
     - name: Fighting Energy
-      set: Energy
-      number: 50
+      set: SSH
+      number: F
       quantity: 3
 ---

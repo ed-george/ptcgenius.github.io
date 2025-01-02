@@ -87,11 +87,11 @@ cards:
       quantity: 4
   energy:
     - name: Grass Energy
-      set: Energy
-      number: 18
+      set: SUM
+      number: G
       quantity: 7
     - name: Lightning Energy
-      set: Energy
-      number: 21
+      set: SUM
+      number: L
       quantity: 5
 ---

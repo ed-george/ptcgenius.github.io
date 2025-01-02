@@ -103,8 +103,8 @@ cards:
       quantity: 3
   energy:
     - name: Psychic Energy
-      set: Energy
-      number: 31
+      set: SUM
+      number: P
       quantity: 7
     - name: Recycle Energy
       set: UNM

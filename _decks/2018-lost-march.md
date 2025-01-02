@@ -83,8 +83,8 @@ cards:
       number: 136
       quantity: 4
     - name: Grass Energy
-      set: Energy
-      number: 18
+      set: SUM
+      number: G
       quantity: 3
     - name: Super Boost Energy ♢
       set: UPR

@@ -83,8 +83,8 @@ cards:
       quantity: 2
   energy:
     - name: Psychic Energy
-      set: Energy
-      number: 31
+      set: SUM
+      number: P
       quantity: 4
     - name: Darkness Energy
       set: Energy

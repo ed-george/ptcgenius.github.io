@@ -104,7 +104,7 @@ cards:
   energy:
     - name: Fighting Energy
       set: DP
-      number: 126
+      number: 128
       quantity: 9
     - name: Call Energy
       set: MD

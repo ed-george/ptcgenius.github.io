@@ -107,7 +107,7 @@ cards:
       quantity: 1
   energy:
     - name: Lightning Energy
-      set: Energy
-      number: 30
+      set: TEU
+      number: L
       quantity: 11
 ---

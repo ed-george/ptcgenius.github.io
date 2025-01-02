@@ -129,7 +129,7 @@ cards:
       quantity: 1
   energy:
     - name: Water Energy
-      set: Energy
-      number: 47
+      set: SSH
+      number: W
       quantity: 8
 ---

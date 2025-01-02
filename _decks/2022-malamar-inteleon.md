@@ -91,7 +91,7 @@ cards:
       number: 159
       quantity: 4
     - name: Psychic Energy
-      set: Energy
-      number: 49
+      set: SSH
+      number: P
       quantity: 2
 ---

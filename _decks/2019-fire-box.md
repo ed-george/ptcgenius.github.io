@@ -85,7 +85,7 @@ cards:
       quantity: 1
   energy:
     - name: Fire Energy
-      set: Energy
-      number: 28
+      set: SUM
+      number: R
       quantity: 18
 ---

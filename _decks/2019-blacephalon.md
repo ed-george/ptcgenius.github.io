@@ -4,7 +4,7 @@ layout: deck
 era: 2019
 description: 3rd Place NAIC 2019, Columbus - Masters - Nathaniel Kaplan
 links:
-  - href: https://limitlesstcg.com/decks/list/3221
+  - href: https://limitlesstcg.com/decks/list/2706
     title: Limitless Page
 cards:
   pokemon:
@@ -83,7 +83,7 @@ cards:
       quantity: 1
   energy:
     - name: Fire Energy
-      set: Energy
-      number: 28
+      set: SUM
+      number: R
       quantity: 13
 ---
