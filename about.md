@@ -60,7 +60,7 @@ Over the years I have found a whole heap of great resources that have helped me 
   * [Pooka](https://www.youtube.com/@TheTopCut/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [Team Fish Knuckles](https://www.youtube.com/@teamfishknuckles/videos) &bull; <span class="badge rounded-pill bg-primary">Modern</span> &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [Pumpkaamy](https://www.twitch.tv/pumpkaamy) &bull; <span class="badge rounded-pill bg-primary">Modern</span>
-  * [@Whimsicast](https://x.com/Pkmn_RubyRetro) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [@Whimsicast](https://x.com/Whimsicast) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [@Pkmn_RubyRetro](https://x.com/Pkmn_RubyRetro) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [@holon_phantom](https://x.com/holon_phantom) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * _and many more..._

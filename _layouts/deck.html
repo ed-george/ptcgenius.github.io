@@ -40,9 +40,11 @@ layout: default
   {% assign total_energy = total_energy | plus: energy.quantity %}
 {% endfor %}
 
-<img src="{{site.baseurl}}/assets/images/decks/{{ page.slug }}.png" alt="{{ page.title }}">
-
 <div class="row mb-4">
+   {% if page.no_image != true %}
+   <span class="smol text-muted text-end mb-1">Decklist image generated via <a href="https://limitlesstcg.com/" class="text-reset" target="_blank">Limitless TCG</a></span>
+   <img src="{{site.baseurl}}/assets/images/decks/{{ page.slug }}.png" alt="{{ page.title }}">
+   {% endif %}
    <div class="col-12 col-md-4 mb-3">
       <ul class="list-group">
          <li class="list-group-item active" aria-current="true">Pokémon ({{ total_pokemon }})</li>
@@ -74,9 +76,6 @@ layout: default
       </ul>
    </div>
 </div>
-
 <hr>
-
-<span class="report-issue text-muted">Something look wrong? - Report a decklist issue <a href="https://github.com/ed-george/ptcgenius.github.io/issues/new?assignees=ed-george&labels=bug&projects=&template=deck-list-issue.md&title=%5BERROR%5D+Decklist%3A+{{ page.title | url_encode }}+{{ page.era | url_encode }}+-+%28{{page.name | url_encode}}%29">here</a></span>
-
+<span class="report-issue text-muted">Does something look wrong? - Report a decklist issue <a href="https://github.com/ed-george/ptcgenius.github.io/issues/new?assignees=ed-george&labels=bug&projects=&template=deck-list-issue.md&title=%5BERROR%5D+Decklist%3A+{{ page.title | url_encode }}+{{ page.era | url_encode }}+-+%28{{page.name | url_encode}}%29">here</a></span>
 <hr>

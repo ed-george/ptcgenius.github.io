@@ -8,6 +8,9 @@ name: ptcgeni.us
 # Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
 title: ptcgenius
 
+# Version
+version: 0.0.1
+
 # Collections
 collections:
   decks:

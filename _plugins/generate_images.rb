@@ -5,18 +5,27 @@ module Jekyll
   class ImageGenerator < Generator
     safe true
 
+    def log(msg)
+      puts "[DEBUG] [ImageGenerator] - #{msg}"
+    end
+
     def generate(site)
 
       # Check if we are running on production env or not
       if ENV['JEKYLL_ENV'] == 'production'
-        puts "** DO NOT RUN ImageGenerator PLUGIN IN PRODUCTION **"
+        log("Not running plugin due to JEKYLL_ENV in prod mode")
         return
       else
-        puts "** RUNNING ImageGenerator PLUGIN **"
+        log("Running ImageGenerator plugin")
       end
 
       # Check all decks
       site.collections['decks'].docs.each do |deck|
+
+        if deck.data['no_image'] == true
+          log("Skipping image generation for #{deck.data['slug']} as no_image set")
+          return
+        end
 
         # Generate file path - use slug (e.g. 2022-adp) as the unique file name
         filename = "assets/images/decks/#{deck.data['slug']}.png"
@@ -56,9 +65,9 @@ module Jekyll
               file.write(response.body)
             end
 
-            puts "Image generated for #{deck.data['title']} at #{filename}"
+            log("Image generated for #{deck.data['title']} at #{filename}")
           else
-            puts "Failed to generate image for #{deck.data['slug']}: #{response.code} - #{response.message}"
+            log("Failed to generate image for #{deck.data['slug']}: #{response.code} - #{response.message}")
           end
         end
       end

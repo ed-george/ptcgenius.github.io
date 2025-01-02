@@ -2,16 +2,22 @@
 layout: default
 ---
 
+<h1>Welcome to PTCGenius ✨</h1>
+A curated list of Pokemon Trading Card decks by <a class="text-reset" href="{{site.url}}/about">Ed Holloway-George</a>
+
 <div class="archive">
+
+  <h3 class="archive-year">Archive</h3>
+  <hr>
 
   {% assign decks_by_era = site.decks | group_by: "era" %}
   {% for era in decks_by_era %}
-  <h1 class="archive-year">{{ era.name }}</h1>
+    <h1 class="archive-year">{{ era.name }}</h1>
     {% for deck in era.items %}
-    <div class="archive-item">
-      <a href="{{ deck.url | relative_url}}" class="archive-title fs-4">{{ deck.title }}</a>
-    </div>
+      <div class="row archive-item mb-3">
+        <a href="{{ deck.url | relative_url}}" class="col archive-title fs-4 align-self-center">{{ deck.title }}</a>
+        <span class="col archive-info text-muted text-end align-self-center">{{ deck.description }}</span>
+      </div>
     {% endfor %}
-{% endfor %}
-
+  {% endfor %}
 </div>
