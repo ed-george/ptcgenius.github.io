@@ -3,6 +3,11 @@ title: Megazone
 layout: deck
 era: 2011
 description: 1st Place 2011 World Championships - Juniors - Gustavo Wada
+achievements:
+  - position: 1st
+    competition: World Championships 2011
+    division: Juniors
+    player: Gustavo Wada
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Megazone_(TCG)
     title: Bulbapedia

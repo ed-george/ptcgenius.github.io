@@ -3,6 +3,11 @@ title: Queendom
 layout: deck
 era: 2005
 description: 1st Place World Championships 2005 - Masters - Jeremy Maron
+achievements:
+  - position: 1st
+    competition: World Championships 2005
+    division: Masters
+    player: Jeremy Maron
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Queendom_(TCG)
     title: Bulbapedia

@@ -3,6 +3,11 @@ title: Deck & Cover
 layout: deck
 era: 2013
 description: 1st Place US Nationals - Masters - Edmund Kuras
+achievements:
+  - position: 1st
+    competition: US Nationals 2011
+    division: Masters
+    player: Edmund Kuras
 links:
   - href: https://www.ptcglegends.com/tournaments/2013_NATS_US/masters/Edmund%20Kuras-US
     title: PTCG Legends page

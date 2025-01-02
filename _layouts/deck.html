@@ -7,9 +7,34 @@ layout: default
 <hr>
 
 <p><strong>Era:</strong> {{ page.era }}</p>
+
 {% if page.description %}
 <p><strong>Description:</strong> {{ page.description }}</p>
 {% endif %}
+
+{% if page.achievements %}
+<p>
+  <strong>Notable Achievements:</strong>
+  <ul class="achievement-list">
+  {% for achivement in page.achievements %}
+
+    {% case achivement.position %}
+    {% when "1st" %}
+       {% assign trophy_class = "achievement-gold" %}
+    {% when "2nd" %}
+       {% assign trophy_class = "achievement-silver" %}
+    {% else %}
+       {% assign trophy_class = "" %}
+    {% endcase %}
+
+    <li class="{{ trophy_class }}">
+      {{ achivement.position }} @ {{ achivement.competition }} - {{ achivement.player }} ({{ achivement.division }})
+    </li>
+  {% endfor %}
+  </ul>
+</p>
+{% endif %}
+
 {% if page.links %}
 <p>
    <strong>Links:</strong>

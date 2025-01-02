@@ -3,6 +3,11 @@ title: Wilde Mew
 layout: deck
 era: 2023
 description: 5th Place Regional Stuttgart - Masters - Ethan Wilde
+achievements:
+  - position: T8
+    competition: Regional Stuttgart 2023
+    division: Masters
+    player: Ethan Wilde
 links:
   - href: https://limitlesstcg.com/decks/list/9345
     title: Limitless Page

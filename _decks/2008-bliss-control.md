@@ -3,6 +3,11 @@ title: Bliss Control
 layout: deck
 era: 2008
 description: 2nd Place 2008 World Championships - Seniors - Paul Atanassov
+achievements:
+  - position: 2nd
+    competition: World Championships 2008
+    division: Seniors
+    player: Paul Atanassov
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Bliss_Control_(TCG)
     title: Bulbapedia

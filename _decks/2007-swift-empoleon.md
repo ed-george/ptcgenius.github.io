@@ -3,6 +3,11 @@ title: Swift Empoleon
 layout: deck
 era: 2007
 description: 2nd Place 2007 World Championships - Seniors - Akira Miyazaki
+achievements:
+  - position: 2nd
+    competition: World Championships 2007
+    division: Seniors
+    player: Akira Miyazaki
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Swift_Empoleon_(TCG)
     title: Bulbapedia

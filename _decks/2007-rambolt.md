@@ -3,6 +3,11 @@ title: Rambolt
 layout: deck
 era: 2007
 description: 1st Place 2007 World Championships - Seniors - Jeremy Scharff-Kim
+achievements:
+  - position: 1st
+    competition: World Championships 2007
+    division: Seniors
+    player: Jeremy Scharff-Kim
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Rambolt_(TCG)
     title: Bulbapedia

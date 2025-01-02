@@ -3,6 +3,11 @@ title: Volcanion
 layout: deck
 era: 2016
 description: T16 World Championships 2016 - Masters - Kazuki Kasahara
+achievements:
+  - position: T16
+    competition: US Nationals 2016
+    division: Masters
+    player: Kazuki Kasahara
 links:
   - href: https://limitlesstcg.com/decks/list/3578
     title: Limitless page

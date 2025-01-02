@@ -3,6 +3,11 @@ title: Emerald King
 layout: deck
 era: 2014
 description: 1st Place 2014 World Championships - Masters - Andrew Estrada
+achievements:
+  - position: 1st
+    competition: World Championships 2014
+    division: Masters
+    player: Andrew Estrada
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Emerald_King_(TCG)
     title: Bulbapedia

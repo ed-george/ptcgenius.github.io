@@ -3,6 +3,11 @@ title: Psychic Lock
 layout: deck
 era: 2008
 description: 1st Place 2008 World Championships - Masters - Jason Klaczynski
+achievements:
+  - position: 1st
+    competition: World Championships 2008
+    division: Masters
+    player: Jason Klaczynski
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Psychic_Lock_(TCG)
     title: Bulbapedia

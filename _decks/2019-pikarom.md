@@ -3,6 +3,11 @@ title: PikaRom
 layout: deck
 era: 2019
 description: 3rd Place Special Event Paris - Masters - Robin Schulz
+achievements:
+  - position: T4
+    competition: Special Event Paris 2019
+    division: Masters
+    player: Robin Schulz
 links:
   - href: https://limitlesstcg.com/decks/list/3100
     title: Limitless Page

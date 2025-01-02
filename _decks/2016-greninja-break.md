@@ -3,6 +3,11 @@ title: Greninja BREAK
 layout: deck
 era: 2016
 description: 2nd Place World Championships 2016 - Masters - Cody Walinski
+achievements:
+  - position: 2nd
+    competition: World Championships 2016
+    division: Masters
+    player: Cody Walinski
 links:
   - href: https://limitlesstcg.com/decks/list/1291
     title: Limitless page

@@ -3,6 +3,11 @@ title: Malamar Giratina
 layout: deck
 era: 2019
 description: 3rd Place Regional Daytona Beach, FL - Masters - Michael Catron
+achievements:
+  - position: T4
+    competition: Regional Daytona Beach 2019
+    division: Masters
+    player: Michael Catron
 links:
   - href: https://limitlesstcg.com/decks/list/3221
     title: Limitless Page

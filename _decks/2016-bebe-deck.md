@@ -3,6 +3,11 @@ title: Bebe Deck
 layout: deck
 era: 2016
 description: 1st Place 2016 World Championships - Seniors - Jesper Eriksen
+achievements:
+  - position: 1st
+    competition: World Championships 2016
+    division: Seniors
+    player: Jesper Eriksen
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Bebe_Deck_(TCG)
     title: Bulbapedia

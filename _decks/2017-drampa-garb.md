@@ -3,6 +3,11 @@ title: Drampa Garbodor
 layout: deck
 era: 2017
 description: 1st Place Regional Liverpool - Masters - Rick Verwaal
+achievements:
+  - position: 1st
+    competition: Regional Liverpool 2017
+    division: Masters
+    player: Rick Verwaal
 links:
   - href: https://limitlesstcg.com/decks/list/78
     title: Limitless Page

@@ -3,6 +3,11 @@ title: Blacephalon
 layout: deck
 era: 2019
 description: 3rd Place NAIC 2019, Columbus - Masters - Nathaniel Kaplan
+achievements:
+  - position: T4
+    competition: NAIC 2019
+    division: Masters
+    player: Nathaniel Kaplan
 links:
   - href: https://limitlesstcg.com/decks/list/2706
     title: Limitless Page

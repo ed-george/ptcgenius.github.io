@@ -3,6 +3,11 @@ title: Colorless Lugia
 layout: deck
 era: 2023
 description: 1st Place World Championships 2023 - Seniors - Gabriel Fernandez
+achievements:
+  - position: 1st
+    competition: World Championships 2023
+    division: Seniors
+    player: Gabriel Fernandez
 links:
   - href: https://limitlesstcg.com/decks/list/12480
     title: Limitless Page

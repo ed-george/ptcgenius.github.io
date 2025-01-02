@@ -3,6 +3,11 @@ title: Fire Box
 layout: deck
 era: 2019
 description: 1st Place World Championships 2019 - Seniors - Kaya Lichtleitner
+achievements:
+  - position: 1st
+    competition: World Championships 2019
+    division: Seniors
+    player: Kaya Lichtleitner
 links:
   - href: https://limitlesstcg.com/decks/list/13361
     title: Limitless Page

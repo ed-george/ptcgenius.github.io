@@ -3,6 +3,11 @@ title: Black Dragon
 layout: deck
 era: 2016
 description: 1st Place 2016 World Championships - Juniors - Shuntu Sadahiro
+achievements:
+  - position: 1st
+    competition: World Championships 2016
+    division: Juniors
+    player: Shuntu Sadahiro
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Black_Dragon_(TCG)
     title: Bulbapedia

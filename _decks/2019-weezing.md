@@ -3,6 +3,11 @@ title: Weezing
 layout: deck
 era: 2019
 description: 2nd Place Korean League Final Season - Gwangseok Seo
+achievements:
+  - position: 2nd
+    competition: Korean League Final Season 2019
+    division: Masters
+    player: Gwangseok Seo
 links:
   - href: https://limitlesstcg.com/decks/list/2715
     title: Limitless Page

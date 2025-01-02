@@ -3,6 +3,11 @@ title: Naganadel & Guzzlord
 layout: deck
 era: 2019
 description: 14th Place LAIC 2019–20, São Paulo - Igor Costa
+achievements:
+  - position: T16
+    competition: LAIC 2019
+    division: Masters
+    player: Igor Costa
 links:
   - href: https://limitlesstcg.com/decks/list/3133
     title: Limitless Page

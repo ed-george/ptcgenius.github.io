@@ -3,6 +3,11 @@ title: Decidueye Ninetales
 layout: deck
 era: 2017
 description: 3rd Place Regional Liverpool - Masters - Pedro Eugenio Torres
+achievements:
+  - position: T4
+    competition: Regional Liverpool 2017
+    division: Masters
+    player: Pedro Eugenio Torres
 links:
   - href: https://limitlesstcg.com/decks/list/80
     title: Limitless Page

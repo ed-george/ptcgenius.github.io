@@ -3,6 +3,11 @@ title: Malamar Inteleon
 layout: deck
 era: 2022
 description: 12th Place EUIC 2022, Frankfurt - Charlie Merryweather (&amp; more)
+achievements:
+  - position: T16
+    competition: EUIC 2022
+    division: Masters
+    player: Charlie Merryweather
 links:
   - href: https://limitlesstcg.com/decks/list/4712
     title: Limitless Page

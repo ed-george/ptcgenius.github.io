@@ -3,6 +3,11 @@ title: Lost Box Kyogre
 layout: deck
 era: 2023
 description: 1st Place World Championships 2023 - Juniors - Shao Tong Yen
+achievements:
+  - position: 1st
+    competition: World Championships 2023
+    division: Juniors
+    player: Shao Tong Yen
 links:
   - href: https://limitlesstcg.com/decks/list/8176
     title: Limitless Page

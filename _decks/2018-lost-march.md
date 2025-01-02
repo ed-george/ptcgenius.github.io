@@ -3,6 +3,11 @@ title: Lost March
 layout: deck
 era: 2018
 description: 6th Place Regional Roanoke, VA - Masters - Charlie Lockyer
+achievements:
+  - position: T8
+    competition: Regional Roanoke 2017
+    division: Masters
+    player: Charlie Lockyer
 links:
   - href: https://limitlesstcg.com/decks/list/1654
     title: Limitless Page

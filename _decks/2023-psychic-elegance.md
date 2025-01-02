@@ -3,6 +3,11 @@ title: Psychic Elegance
 layout: deck
 era: 2023
 description: 2nd Place World Championships 2023 - Masters - Tord Reklev
+achievements:
+  - position: 2nd
+    competition: World Championships 2023
+    division: Masters
+    player: Tord Reklev
 links:
   - href: https://limitlesstcg.com/decks/list/8176
     title: Limitless Page

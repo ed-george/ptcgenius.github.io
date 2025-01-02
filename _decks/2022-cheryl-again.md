@@ -3,6 +3,11 @@ title: Cheryl Again
 layout: deck
 era: 2022
 description: 2nd Place World Championships 2022 - Seniors - Sebastian Lashmet
+achievements:
+  - position: 2nd
+    competition: World Championships 2022
+    division: Seniors
+    player: Sebastian Lashmet
 links:
   - href: https://limitlesstcg.com/decks/list/12857
     title: Limitless Page

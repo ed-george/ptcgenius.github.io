@@ -3,6 +3,11 @@ title: Suns & Moons
 layout: deck
 era: 2006
 description: 1st Place 2006 World Championships - Seniors - Miska Saari
+achievements:
+  - position: 1st
+    competition: World Championships 2006
+    division: Seniors
+    player: Miska Saari
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Suns_%26_Moons_(TCG)
     title: Bulbapedia

@@ -3,6 +3,11 @@ title: Bulu Vikavolt
 layout: deck
 era: 2018
 description: 3rd Place Regional Portland, OR - Masters - Alex Hill
+achievements:
+  - position: T4
+    competition: Regional Portland 2017
+    division: Masters
+    player: Alex Hill
 links:
   - href: https://limitlesstcg.com/decks/list/824
     title: Limitless Page

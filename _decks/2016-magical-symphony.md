@@ -3,6 +3,11 @@ title: Magical Symphony
 layout: deck
 era: 2016
 description: 1st Place 2016 World Championships - Masters - Shintaro Ito
+achievements:
+  - position: 1st
+    competition: World Championships 2016
+    division: Masters
+    player: Shintaro Ito
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Magical_Symphony_(TCG)
     title: Bulbapedia

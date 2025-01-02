@@ -124,3 +124,34 @@ pre.highlight {
     display: inline-block !important;
   }
 }
+
+.achievement-list {
+  list-style: none;
+} 
+
+.achievement-list li {
+  position: relative;
+  padding-left: 1.5em; /* Ensure space for the marker */
+}
+
+.achievement-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.2em; /* Adjust alignment as needed */
+  width: 1em;
+  height: 1em;
+  mask: url('/assets/images/trophy.svg') no-repeat;
+  -webkit-mask: url('/assets/images/trophy.svg') no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  background-color: #7F735F; /* Default bronze color */
+}
+
+.achievement-list li.achievement-gold::before {
+  background-color: #FFD700;
+}
+
+.achievement-list li.achievement-silver::before {
+  background-color: #C0C0C0;
+}

@@ -3,6 +3,11 @@ title: Mega Manectric Garbodor
 layout: deck
 era: 2016
 description: T8 World Championships 2016 - Seniors - Spencer Perez-Dormitzer
+achievements:
+  - position: T8
+    competition: World Championships 2016
+    division: Seniors
+    player: Spencer Perez-Dormitzer
 links:
   - href: https://limitlesstcg.com/decks/list/13641
     title: Limitless page

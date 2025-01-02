@@ -3,6 +3,11 @@ title: Victory Map
 layout: deck
 era: 2018
 description: 1st Place World Championships 2018 - Masters - Robin Schulz
+achievements:
+  - position: 1st
+    competition: World Championships 2018
+    division: Masters
+    player: Robin Schulz
 links:
   - href: https://limitlesstcg.com/decks/list/1222
     title: Limitless Page

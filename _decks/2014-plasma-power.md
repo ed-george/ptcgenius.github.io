@@ -3,6 +3,11 @@ title: Plasma Power
 layout: deck
 era: 2014
 description: 1st Place 2014 World Championships - Juniors - Haruto Kobayashi
+achievements:
+  - position: 1st
+    competition: World Championships 2014
+    division: Juniors
+    player: Haruto Kobayashi
 links:
   - href: https://bulbapedia.bulbagarden.net/wiki/Plasma_Power_(TCG)
     title: Bulbapedia

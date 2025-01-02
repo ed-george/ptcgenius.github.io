@@ -3,6 +3,11 @@ title: Ice Rider Palkia
 layout: deck
 era: 2022
 description: 1st Place World Championships 2022 - Juniors - Rikuto Ohashi
+achievements:
+  - position: 1st
+    competition: World Championships 2022
+    division: Juniors
+    player: Rikuto Ohashi
 links:
   - href: https://limitlesstcg.com/decks/list/12864
     title: Limitless Page
