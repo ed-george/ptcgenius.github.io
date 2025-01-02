@@ -7,44 +7,71 @@ layout: default
 <hr>
 
 <p><strong>Era:</strong> {{ page.era }}</p>
-{% if page.description %}<p><strong>Description:</strong> {{ page.description }}</p>{% endif %}
-
+{% if page.description %}
+<p><strong>Description:</strong> {{ page.description }}</p>
+{% endif %}
 {% if page.links %}
 <p>
-<strong>Links:</strong>
+   <strong>Links:</strong>
 <ul>
-{% for link in page.links %}
-<li><a href="{{link.href}}" target="_blank">{{link.title}}</a></li>
-{% endfor %}
+   {% for link in page.links %}
+   <li><a href="{{link.href}}" target="_blank">{{link.title}}</a></li>
+   {% endfor %}
 </ul>
 </p>
 {% endif %}
 
 <hr>
 
-<h2>Decklist</h2>
+<h2 class="mb-3">Decklist</h2>
 
-<h4>Pokémon</h4>
+{% assign total_pokemon = 0 %}
+{% for pokemon in page.cards.pokemon %}
+  {% assign total_pokemon = total_pokemon | plus: pokemon.quantity %}
+{% endfor %}
 
-<ul>
-  {% for pokemon in page.cards.pokemon %}
-    <li>{{ pokemon.quantity }}&times; {{ pokemon.name }} <span class="set-info text-muted">({{ pokemon.set }} {{ pokemon.number }})</span></li>
-  {% endfor %}
-</ul>
+{% assign total_trainers = 0 %}
+{% for trainers in page.cards.trainers %}
+  {% assign total_trainers = total_trainers | plus: trainers.quantity %}
+{% endfor %}
 
-<h4>Trainers</h4>
-<ul>
-  {% for trainer in page.cards.trainers %}
-    <li>{{ trainer.quantity }}&times; {{ trainer.name }} <span class="set-info text-muted">({{ trainer.set }} {{ trainer.number }})</span></li>
-  {% endfor %}
-</ul>
+{% assign total_energy = 0 %}
+{% for energy in page.cards.energy %}
+  {% assign total_energy = total_energy | plus: energy.quantity %}
+{% endfor %}
 
-<h4>Energy</h4>
-<ul>
-  {% for energy in page.cards.energy %}
-    <li>{{ energy.quantity }}&times; {{ energy.name }} <span class="set-info text-muted">({{ energy.set }} {{ energy.number }})</span></li>
-  {% endfor %}
-</ul>
+<div class="row mb-4">
+   <div class="col-12 col-md-4 mb-3">
+      <ul class="list-group">
+         <li class="list-group-item active" aria-current="true">Pokémon ({{ total_pokemon }})</li>
+         {% for pokemon in page.cards.pokemon %}
+         <li class="list-group-item">{{ pokemon.quantity }}&times; {{ pokemon.name }} 
+            <span class="set-info text-muted">({{ pokemon.set }} {{ pokemon.number }})</span>
+         </li>
+         {% endfor %}
+      </ul>
+   </div>
+   <div class="col-12 col-md-4 mb-3">
+      <ul class="list-group">
+         <li class="list-group-item active" aria-current="true">Trainers ({{ total_trainers }})</li>
+         {% for trainer in page.cards.trainers %}
+         <li class="list-group-item">{{ trainer.quantity }}&times; {{ trainer.name }} 
+            <span class="set-info text-muted">({{ trainer.set }} {{ trainer.number }})</span>
+         </li>
+         {% endfor %}
+      </ul>
+   </div>
+   <div class="col-12 col-md-4 mb-3">
+      <ul class="list-group">
+         <li class="list-group-item active" aria-current="true">Energy ({{ total_energy }})</li>
+         {% for energy in page.cards.energy %}
+         <li class="list-group-item">{{ energy.quantity }}&times; {{ energy.name }} 
+            <span class="set-info text-muted">({{ energy.set }} {{ energy.number }})</span>
+         </li>
+         {% endfor %}
+      </ul>
+   </div>
+</div>
 
 <hr>
 
