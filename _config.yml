@@ -13,6 +13,9 @@ collections:
   decks:
     output: true
 
+keep_files:
+  - assets
+
 # Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
 # Avatar for light mode site
 lightavatar: /assets/images/logo_light.png
