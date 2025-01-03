@@ -3,20 +3,40 @@ layout: default
 ---
 
 <h1>Welcome to PTCGenius ✨</h1>
-A curated list of Pokemon Trading Card decks by <a class="text-reset" href="{{site.url}}/about">Ed Holloway-George</a>
+<p>A curated list of Pokemon Trading Card decks by <a class="text-reset" href="{{site.url}}/about">Ed Holloway-George</a></p>
+<img class="img-fluid" src="{{site.baseurl}}/assets/images/banner.jpg">
 
 <div class="archive">
 
   <h3 class="archive-year">Archive</h3>
   <hr>
 
-  {% assign decks_by_era = site.decks | group_by: "era" %}
+  {% assign decks_by_era = site.decks | where_exp: "item", "item.hide_in_archive != true" | group_by: "era" %}
   {% for era in decks_by_era %}
     <h1 class="archive-year">{{ era.name }}</h1>
     {% for deck in era.items %}
       <div class="row archive-item mb-3">
         <a href="{{ deck.url | relative_url}}" class="col archive-title fs-4 align-self-center">{{ deck.title }}</a>
-        <span class="col archive-info text-muted text-end align-self-center">{{ deck.description }}</span>
+        <span class="col archive-info text-muted text-end align-self-center">
+          {% if deck.achievements %}
+            {% assign arr = "" %}
+            {% for achievement in deck.achievements %}
+              {% assign division = achievement.division | downcase %}
+              {% case division %}
+                {% when "juniors", "junior" %}
+                   {% assign division = " (JR)" %}
+                {% when "seniors", "senior" %}
+                   {% assign division = " (SR)" %}
+                {% else %}
+                   {% assign division = "" %}
+              {% endcase %}
+              {% assign arr = arr | append: achievement.position |  append: " @ " | append: achievement.competition | append: " by " | append: achievement.player | append: division | append: "," %}
+            {% endfor %}
+            {{ arr | split: "," | array_to_sentence_string: "&" }}
+          {% else %}
+            {{ deck.description }}
+          {% endif %}
+        </span>
       </div>
     {% endfor %}
   {% endfor %}

@@ -4,20 +4,19 @@ title: About
 permalink: /about/
 ---
 
-<div class="d-flex align-items-start">
-<p class="flex-grow-1">
-Hi there 👋 
-<br><br>
-I'm Ed Holloway-George, a pretty bad <span class="smol">(but enthusiastic)</span> PTCG player and professor from Nottingham, UK.
-<br><br>
-I have played the Pokemon TCG online since 2012, played semi-regularly IRL since 2016 and I started both my 'competative' and 'judging' journeys in the 2024 season. I can now be found regularly at events within the East Midlands and beyond, so come say hello! 
-<br><br>You <em>may</em> also know me from <strike>Twitter</strike> X where I post under <a href="https://x.com/PTCGenius">@PTCGenius</a>.
-</p>
-  <img src="{{site.baseurl}}/assets/images/me.png" alt="Example Image" class="ms-3" style="width: 96px; height: auto;">
+
+<div class="clearfix">
+  <img src="{{site.baseurl}}/assets/images/me.png" class="col-md-6 float-md-end mb-3 ms-md-3 ps-3" style="width: 192px; height: auto;">
+
+  <p> I'm Ed Holloway-George, a pretty bad <span class="smol">(but enthusiastic)</span> PTCG player and professor from Nottingham, UK.</p>
+  
+  <p> I have played the Pokemon TCG online since 2012, played semi-regularly IRL since 2016 and I started both my 'competative' and 'judging' journeys in the 2024 season. I can now be found regularly at events within the East Midlands and beyond, so come say hello!</p>
+  
+  <p> You <em>may</em> also know me from <strike>Twitter</strike> X where I post under <a href="https://x.com/PTCGenius">@PTCGenius</a>.</p>
+  
+  <p> Outside of PTCG, I am a mobile app developer, Google Developer Expert, conference speaker, blogger and more. You can find out more about all that @ <a href ="http://spght.dev" class="spght">spght.dev</a> 🍝</p>
+
 </div>
-
-Outside of PTCG, I am a mobile app developer, Google Developer Expert, conference speaker, blogger and more. You can find out more about all that @ <a href ="http://spght.dev" class="spght">spght.dev</a> 🍝
-
 
 <h5 class="question">"Ok, so what's all this site about then?"</h5>
 
@@ -73,6 +72,6 @@ Fantastic, head over to [tcg.pokemon.com](https://tcg.pokemon.com/en-us/learn/) 
 
 Finally, thanks for checking the site out - I hope to catch you at an event very soon! ✌️
 
-<span class="spght">Ed :)</span>
+<strong class="spght">Ed :)</strong>
 
-![]({{site.baseurl}}/assets/images/about.jpg)
+<img src="{{site.baseurl}}/assets/images/about.jpg" class="img-fluid"/>

@@ -1,5 +1,5 @@
 ---
-title: Wilde Mew
+title: Grabber Mew
 layout: deck
 era: 2023
 description: 5th Place Regional Stuttgart - Masters - Ethan Wilde
