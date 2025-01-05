@@ -36,12 +36,15 @@ I am _always_ looking to try and play fun decks from any era. If you have a sugg
 
 Of course! Please do drop me a message via social(s) if you do so though
 
+{% assign tcg_one_link = '<a href="https://play.tcgone.net" target="_blank">TCGOne</a>' %}
+
 | Pokemon Platform               | Username / ID / etc |
 |--------------------------------|---------------------|
 | PTCG Live Username             | EdGeorge            |
 | Pokémon TCG Pocket Friend Code | 7928936863804644    |
 | Pokémon GO Friend Code         | 158781632204        |
 | Pokémon Sleep Friend Code      | 7743-6534-5631      |
+| {{ tcg_one_link }}             | edgeorge92          |
 
 <h5 class="question">"I want to learn more about retro-decks but I don't know how?!"</h5>
 

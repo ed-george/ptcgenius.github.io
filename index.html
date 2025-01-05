@@ -11,7 +11,7 @@ layout: default
   <h3 class="archive-year">Archive</h3>
   <hr>
 
-  {% assign decks_by_era = site.decks | where_exp: "item", "item.hide_in_archive != true" | group_by: "era" %}
+  {% assign decks_by_era = site.decks | where_exp: "item", "item.in_progress != true" | group_by: "era" %}
   {% for era in decks_by_era %}
     <h1 class="archive-year">{{ era.name }}</h1>
     {% for deck in era.items %}

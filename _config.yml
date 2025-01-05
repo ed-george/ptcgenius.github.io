@@ -40,6 +40,8 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+github_deck_issue_url: https://github.com/ed-george/ptcgenius.github.io/issues/new?assignees=ed-george&labels=bug&projects=&template=deck-list-issue.md&title=%5BERROR%5D+Decklist%3A+
+
 # global author information
 author: ptcgenius
 
@@ -61,6 +63,7 @@ footer-links:
   rss:
   twitter: ptcgenius
   website: https://spght.dev
+  discord: sp4ghetticode
 
 plugins:
   - jekyll-seo-tag

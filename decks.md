@@ -4,7 +4,9 @@ title: Decks
 permalink: /decks/
 ---
 
-**Deck Count:** {{ site.decks.size }} decks built ✨
+{% assign decks = site.decks | where_exp: "item", "item.in_progress != true" %}
+
+**Deck Count:** {{ decks.size }} decks built ✨
 
 <nav>
   <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
@@ -17,14 +19,14 @@ permalink: /decks/
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-az" role="tabpanel" aria-labelledby="nav-az-tab">
     <ul>
-    {% assign az_decks = site.decks | sort: "title" %}
+    {% assign az_decks = decks | sort: "title" %}
     {% for deck in az_decks %}
       <li class="mb-1"><a href="{{ deck.url | relative_url}}">{{deck.title}}</a> <span class="align-middle smol">({{deck.era}})</span></li>
     {% endfor %}
     </ul>
   </div>
   <div class="tab-pane fade" id="nav-era" role="tabpanel" aria-labelledby="nav-era-tab">
-    {% assign decks_by_era = site.decks | group_by: "era" %}
+    {% assign decks_by_era = decks | group_by: "era" %}
     {% for era in decks_by_era %}
       <span class="fs-5 mb-1">{{ era.name }}</span>
       <ul>
@@ -37,7 +39,7 @@ permalink: /decks/
   <div class="tab-pane fade" id="nav-player" role="tabpanel" aria-labelledby="nav-player-tab">
   {% assign players = "" %}
   {% assign players_decks = "" %}
-  {% for deck in site.decks %}
+  {% for deck in decks %}
     {% for achievement in deck.achievements %}
       {% assign players = players | append: achievement.player | append: "," %}
       {% assign players_decks = players_decks | append: achievement.player | append: "|" | append: deck.slug | append: "," %}
@@ -53,7 +55,7 @@ permalink: /decks/
     {% for player_deck in player_decks_array %}
       {% if player_deck contains player %}
         {% assign deck_slug = player_deck | split: "|" | last %}
-        {% assign deck = site.decks | where: "slug", deck_slug | first %}
+        {% assign deck = decks | where: "slug", deck_slug | first %}
         {% assign deck_events = deck.achievements | map: "competition" | uniq | array_to_sentence_string: "&" %}
           <li class="mb-1"><a href="{{ deck.url | relative_url}}">{{ deck.title }}</a> <span class="align-middle smol">({{ deck_events }})</span></li>
       {% endif %}
@@ -64,7 +66,7 @@ permalink: /decks/
   <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
   {% assign competition = "" %}
   {% assign competition_decks = "" %}
-  {% for deck in site.decks %}
+  {% for deck in decks %}
     {% for achievement in deck.achievements %}
       {% assign competition = competition | append: achievement.competition | append: "," %}
       {% assign competition_decks = competition_decks | append: achievement.competition | append: "|" | append: deck.slug | append: "," %}
@@ -80,7 +82,7 @@ permalink: /decks/
     {% for competition_deck in competition_decks_array %}
       {% if competition_deck contains competition %}
         {% assign deck_slug = competition_deck | split: "|" | last %}
-        {% assign deck = site.decks | where: "slug", deck_slug | first %}
+        {% assign deck = decks | where: "slug", deck_slug | first %}
         {% assign deck_players = deck.achievements | map: "player" | array_to_sentence_string: "&" %}
           <li class="mb-1"><a href="{{ deck.url | relative_url}}">{{ deck.title }}</a> <span class="align-middle smol">({{ deck_players }})</span></li>
       {% endif %}
