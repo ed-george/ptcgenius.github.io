@@ -13,7 +13,7 @@ permalink: /kitchen/
 
   <p>These lists are often from formats with cards that are harder to source, formats I am currently looking into more or even just cool decks I have seen played previously.</p>
 
-  <p>Whenever possible, I will provide credit to the list's creator within the links or description of each page, however please open <a href="{{ site.github_deck_issue_url | append: 'Attribution issue' | uri_escape }}" target="_blank">an issue</a> if you believe attribution is incorrect.</p>
+  <p>Whenever possible, I will provide credit to the list's creator within the links or description of each page, however please open <a href="{{ site.repository.issue-template-url.deck | append: 'Attribution issue' | uri_escape }}" target="_blank">an issue</a> if you believe attribution is incorrect.</p>
 
   <p><em>Bon appétit</em> 👨‍🍳 - Ed</p>
 
@@ -55,7 +55,7 @@ permalink: /kitchen/
       {% endfor %}
     {% endfor %}
     <hr>
-    <span class="report-issue text-muted">These decks should not appear elsewhere on this site, so if you happen to spot them please report an issue <a href="{{ site.github_deck_issue_url | append: 'Kitchen List Error' | uri_escape }}" target="_blank">here</a>.</span>
+    <span class="report-issue text-muted">These decks should not appear elsewhere on this site, so if you happen to spot them please report an issue <a href="{{ site.repository.issue-template-url.deck | append: 'Kitchen List Error' | uri_escape }}" target="_blank">here</a>.</span>
     <hr>
   {% else %}
     <strong>It looks like the kitchen isn't cooking anything right now, please come back soon!</strong>

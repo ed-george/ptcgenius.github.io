@@ -21,6 +21,7 @@ cards:
       set: WP
       number: 14
       quantity: 3
+      missing_count: 2
     - name: Hitmonchan
       set: BS
       number: 7
@@ -33,10 +34,12 @@ cards:
       set: JU
       number: 26
       quantity: 2
+      missing_count: 2
     - name: Ditto
       set: FO
       number: 18
       quantity: 2
+      missing_count: 2
     - name: Mew
       set: WP
       number: 8

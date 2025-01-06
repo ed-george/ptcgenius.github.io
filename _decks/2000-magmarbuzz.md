@@ -21,10 +21,12 @@ cards:
       set: JU
       number: 26
       quantity: 3
+      missing_count: 3
     - name: Ditto
       set: FO
       number: 18
       quantity: 2
+      missing_count: 2
   trainers:
     - name: Professor Oak
       set: BS
@@ -38,6 +40,7 @@ cards:
       set: BS
       number: 81
       quantity: 4
+      missing_count: 3
     - name: Energy Removal
       set: BS
       number: 92
@@ -62,6 +65,7 @@ cards:
       set: BS
       number: 74
       quantity: 2
+      missing_count: 2
     - name: Energy Search
       set: FO
       number: 59

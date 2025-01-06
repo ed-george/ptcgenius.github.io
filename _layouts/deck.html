@@ -65,6 +65,13 @@ layout: default
   {% assign total_energy = total_energy | plus: energy.quantity %}
 {% endfor %}
 
+{% assign card_prefix = "" %}
+{% assign card_li_data = "class='list-group-item'" %}
+
+{% assign missing_card_prefix = "⚠️ " %}
+{% assign missing_card_li_data_prefix = "class='list-group-item list-group-item-warning' data-bs-toggle='tooltip' data-bs-placement='left' data-bs-html='true' title='<strong>Can you help?</strong><p>I am missing <strong>" %}
+{% assign missing_card_li_data_suffix = "</strong> of these card(s)</p>Please contact me using the links at the bottom of the page if you are able to source any!<p><strong>Thank you 🙏</strong></p>'" %}
+
 <div class="row mb-4">
    {% if page.no_image != true %}
    <span class="smol text-muted text-end mb-1">Decklist image generated via <a href="https://limitlesstcg.com/" class="text-reset" target="_blank">Limitless TCG</a></span>
@@ -74,7 +81,14 @@ layout: default
       <ul class="list-group">
          <li class="list-group-item active" aria-current="true">Pokémon ({{ total_pokemon }})</li>
          {% for pokemon in page.cards.pokemon %}
-         <li class="list-group-item">{{ pokemon.quantity }}&times; {{ pokemon.name }} 
+           {% if pokemon.missing_count > 0 %}
+             {% assign prefix = missing_card_prefix %}
+             {% assign li_data = missing_card_li_data_prefix | append: pokemon.missing_count | append: missing_card_li_data_suffix %}
+           {% else %}
+             {% assign prefix = card_prefix %}
+             {% assign li_data = card_li_data %}
+           {% endif %}
+         <li {{ li_data }}>{{ prefix }}{{ pokemon.quantity }}&times; {{ pokemon.name }} 
             <span class="set-info text-muted">({{ pokemon.set }} {{ pokemon.number }})</span>
          </li>
          {% endfor %}
@@ -84,7 +98,14 @@ layout: default
       <ul class="list-group">
          <li class="list-group-item active" aria-current="true">Trainers ({{ total_trainers }})</li>
          {% for trainer in page.cards.trainers %}
-         <li class="list-group-item">{{ trainer.quantity }}&times; {{ trainer.name }} 
+           {% if trainer.missing_count > 0 %}
+             {% assign prefix = missing_card_prefix %}
+             {% assign li_data = missing_card_li_data_prefix | append: trainer.missing_count | append: missing_card_li_data_suffix %}
+           {% else %}
+             {% assign prefix = card_prefix %}
+             {% assign li_data = card_li_data %}
+           {% endif %}
+         <li {{ li_data }}>{{ prefix }}{{ trainer.quantity }}&times; {{ trainer.name }} 
             <span class="set-info text-muted">({{ trainer.set }} {{ trainer.number }})</span>
          </li>
          {% endfor %}
@@ -94,7 +115,14 @@ layout: default
       <ul class="list-group">
          <li class="list-group-item active" aria-current="true">Energy ({{ total_energy }})</li>
          {% for energy in page.cards.energy %}
-         <li class="list-group-item">{{ energy.quantity }}&times; {{ energy.name }} 
+           {% if energy.missing_count > 0 %}
+             {% assign prefix = missing_card_prefix %}
+             {% assign li_data = missing_card_li_data_prefix | append: energy.missing_count | append: missing_card_li_data_suffix %}
+           {% else %}
+             {% assign prefix = card_prefix %}
+             {% assign li_data = card_li_data %}
+           {% endif %}
+         <li {{ li_data }}>{{ prefix }}{{ energy.quantity }}&times; {{ energy.name }} 
             <span class="set-info text-muted">({{ energy.set }} {{ energy.number }})</span>
          </li>
          {% endfor %}
@@ -102,5 +130,5 @@ layout: default
    </div>
 </div>
 <hr>
-<span class="report-issue text-muted">Does something look wrong? - Report a decklist issue <a href="{{ site.github_deck_issue_url }}{{ page.title | url_encode }}+{{ page.era | url_encode }}+-+%28{{page.name | url_encode}}%29">here</a></span>
+<span class="report-issue text-muted">Does something look wrong? - Report a decklist issue <a href="{{ site.repository.issue-template-url.deck }}{{ page.title | url_encode }}+{{ page.era | url_encode }}+-+%28{{page.name | url_encode}}%29">here</a></span>
 <hr>

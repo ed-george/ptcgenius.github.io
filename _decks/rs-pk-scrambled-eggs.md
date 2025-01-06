@@ -23,6 +23,7 @@ cards:
       set: RG
       number: 5
       quantity: 4
+      missing_count: 2
     - name: Voltorb
       set: HL
       number: 80

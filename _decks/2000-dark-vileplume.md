@@ -33,6 +33,7 @@ cards:
       set: JU
       number: 27
       quantity: 3
+      missing_count: 3
     - name: Kangaskhan
       set: JU
       number: 21
@@ -41,11 +42,13 @@ cards:
       set: JU
       number: 22
       quantity: 2
+      missing_count: 2
   trainers:
     - name: Computer Search
       set: BS
       number: 71
       quantity: 4
+      missing_count: 2
     - name: Bill
       set: BS
       number: 91
