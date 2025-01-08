@@ -2,10 +2,8 @@
 title: Haymaker
 layout: deck
 era: 2000
-in_progress: true
 description: Winner in the first 'Super Trainer Showdown' event, held on the Queen Mary, Long Beach, California in July 2000
 achievements:
-
   - position: 1st
     competition: California Super Trainer Showdown 2000
     division: Masters
@@ -21,7 +19,6 @@ cards:
       set: WP
       number: 14
       quantity: 3
-      missing_count: 2
     - name: Hitmonchan
       set: BS
       number: 7
@@ -34,12 +31,10 @@ cards:
       set: JU
       number: 26
       quantity: 2
-      missing_count: 2
     - name: Ditto
       set: FO
       number: 18
       quantity: 2
-      missing_count: 2
     - name: Mew
       set: WP
       number: 8
