@@ -75,6 +75,7 @@ layout: default
 {% assign missing_card_li_data_suffix = "</strong> of these card(s)</p>Please contact me using the links at the bottom of the page if you are able to source any!<p><strong>Thank you 🙏</strong></p>'" %}
 
 <div class="row mb-4">
+   {{ content }}
    {% if page.no_image != true %}
    <span class="smol text-muted text-end mb-1">Decklist image generated via <a href="https://limitlesstcg.com/" class="text-reset" target="_blank">Limitless TCG</a></span>
    <img src="{{site.baseurl}}/assets/images/decks/{{ page.slug }}.png" alt="{{ page.title }}">

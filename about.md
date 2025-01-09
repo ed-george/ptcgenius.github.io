@@ -57,6 +57,8 @@ Over the years I have found a whole heap of great resources that have helped me 
 * [Jason Klaczynski's Blog](https://jklaczpokemon.com/) &bull; <span class="badge rounded-pill bg-success">Retro</span> &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
 * [Top Cut Events](https://www.topcutevents.com/pokeacutemon-retro-decks.html) &bull; <span class="badge rounded-pill bg-success">Retro</span>
 * [Holon Research Tower](http://holonresearchtower.com/) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
+* [The Sideways Decks](https://sites.google.com/view/sidedeckways/home) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+* [Pokumon](https://pokumon.com/) &bull; <span class="badge rounded-pill bg-success">Retro</span>
 * Content creators / players such as:
   * [TheJWittz](https://www.youtube.com/@TheJWittz/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [Pooka](https://www.youtube.com/@TheTopCut/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
@@ -65,6 +67,7 @@ Over the years I have found a whole heap of great resources that have helped me 
   * [@Whimsicast](https://x.com/Whimsicast) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [@Pkmn_RubyRetro](https://x.com/Pkmn_RubyRetro) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [@holon_phantom](https://x.com/holon_phantom) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+  * [@kanten620](https://note.com/kanten620) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
   * _and many more..._
 
 <h5 class="question">"I didn't understand any of that, but I do want to learn more about PTCG!"</h5>
