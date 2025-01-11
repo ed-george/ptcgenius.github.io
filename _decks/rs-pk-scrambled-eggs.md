@@ -2,10 +2,7 @@
 title: Scrambled Eggs
 layout: deck
 era: RS-PK
-in_progress: true
-description: My first dip into the EX Series (RS-PK) format
-achievements:
-
+description: My first dip into the EX Series (RS-PK) format with a classic list
 links:
   - href: https://jklaczpokemon.com/ex-decks/#scrambled-eggs
     title: Jason Klaczynski blog
@@ -23,7 +20,6 @@ cards:
       set: RG
       number: 5
       quantity: 4
-      missing_count: 1
     - name: Voltorb
       set: HL
       number: 80

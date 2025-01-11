@@ -68,6 +68,7 @@ Over the years I have found a whole heap of great resources that have helped me 
   * [@Pkmn_RubyRetro](https://x.com/Pkmn_RubyRetro) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [@holon_phantom](https://x.com/holon_phantom) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [@kanten620](https://note.com/kanten620) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
+  * [@shuckletcg](https://www.youtube.com/@shuckletcg/featured) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * _and many more..._
 
 <h5 class="question">"I didn't understand any of that, but I do want to learn more about PTCG!"</h5>
