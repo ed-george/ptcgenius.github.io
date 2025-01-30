@@ -2,7 +2,6 @@
 title: Magmarbuzz
 layout: deck
 era: 2000
-in_progress: true
 description: A Base-Rocket era Jason Klaczynski list
 links:
   - href: https://jklaczpokemon.com/2000-base-team-rocket/#magmarbuzz
@@ -21,12 +20,10 @@ cards:
       set: JU
       number: 26
       quantity: 3
-      missing_count: 3
     - name: Ditto
       set: FO
       number: 18
       quantity: 2
-      missing_count: 1
   trainers:
     - name: Professor Oak
       set: BS
@@ -64,7 +61,6 @@ cards:
       set: BS
       number: 74
       quantity: 2
-      missing_count: 1
     - name: Energy Search
       set: FO
       number: 59
