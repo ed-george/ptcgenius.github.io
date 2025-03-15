@@ -28,6 +28,14 @@
             opacity: 0.5; /* Fade effect for collected cards */
         }
     </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WMX6KJ7LD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0WMX6KJ7LD');
+  </script>
 </head>
 
 <body class="container mt-4">
@@ -44,9 +52,9 @@
   </div>
 
   <div class="form-floating mb-3">
-   <input type="text" class="form-control" id="searchInput" placeholder="Search...">
-   <label for="floatingInput">Search for a card...</label>
-</div>
+     <input type="text" class="form-control" id="searchInput" placeholder="Search...">
+     <label for="floatingInput">Search for a card...</label>
+ </div>
 
 <!-- Uncollected Cards Section -->
 <h2>Missing Cards</h2>
@@ -68,7 +76,7 @@
 </form>
 
 <script>
-   const cards = [
+ const cards = [
     {
         "ID": 936480,
         "Card_Order": 1,
@@ -26224,22 +26232,22 @@ function getCollectionStatus() {
 }
 
 function displayTitle(allCards) {
-   const titleSection = document.getElementById('uncollectedTitle');
-   const collectionStatus = getCollectionStatus();
+ const titleSection = document.getElementById('uncollectedTitle');
+ const collectionStatus = getCollectionStatus();
 
-   const collectedCount = allCards.filter((card) => collectionStatus[card.Card_ID] || false).length;
-   const cost = allCards.filter((card) => !collectionStatus[card.Card_ID]).map((card) => card.CardmarketMarket).reduce((a, b) => a + b);
+ const collectedCount = allCards.filter((card) => collectionStatus[card.Card_ID] || false).length;
+ const cost = allCards.filter((card) => !collectionStatus[card.Card_ID]).map((card) => card.CardmarketMarket).reduce((a, b) => a + b);
 
-   const vals = allCards.filter((card) => !collectionStatus[card.Card_ID]).sort((a, b) => b.CardmarketMarket - a.CardmarketMarket);
-   const max = vals[0];
-   const min = [...vals].pop();
+ const vals = allCards.filter((card) => !collectionStatus[card.Card_ID]).sort((a, b) => b.CardmarketMarket - a.CardmarketMarket);
+ const max = vals[0];
+ const min = [...vals].pop();
 
-   titleSection.innerHTML = `
+ titleSection.innerHTML = `
             <p>
             Collected ${collectedCount}/${allCards.length} (${(100 * (collectedCount/allCards.length)).toFixed(2)}%) - <strong>${allCards.length - collectedCount} remaining</strong></br>
             <small class="text-body-secondary">Estimated cost: <em>€${cost.toFixed(2)}</em> • Most expensive remaining: <em>${max.Card_Name} - ${max.Set} #${max.Set_Number} @ €${max.CardmarketMarket.toFixed(2)}</em> • Cheapest remaining: <em>${min.Card_Name} - ${min.Set} #${min.Set_Number} @ €${min.CardmarketMarket.toFixed(2)}</em></small></br>
             </p>
-   `;
+ `;
 }
 
 function displayCards(filteredCards) {
