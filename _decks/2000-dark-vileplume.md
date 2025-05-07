@@ -1,7 +1,6 @@
 ---
 title: Dark Vileplume w/ Snorlax
 layout: deck
-in_progress: true
 era: 2000
 description: A Base-Rocket era Jason Klaczynski list
 links:
@@ -33,7 +32,6 @@ cards:
       set: JU
       number: 27
       quantity: 3
-      missing_count: 2
     - name: Kangaskhan
       set: JU
       number: 21
@@ -42,7 +40,6 @@ cards:
       set: JU
       number: 22
       quantity: 2
-      missing_count: 1
   trainers:
     - name: Computer Search
       set: BS
