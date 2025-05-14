@@ -20,12 +20,10 @@ cards:
       set: SF
       number: 19
       quantity: 4
-      missing_count: 1
     - name: Magikarp
       set: SF
       number: 65
       quantity: 4
-      missing_count: 4
     - name: Sableye
       set: SF
       number: 48
@@ -69,13 +67,12 @@ cards:
       set: MD
       number: 49
       quantity: 1
-      missing_count: 1
   trainers:
     - name: Pokémon Collector
       set: HS
       number: 97
       quantity: 4
-      missing_count: 3
+      missing_count: 2
     - name: Felicity's Drawing
       set: GE
       number: 98
@@ -106,7 +103,6 @@ cards:
       set: SV
       number: 140
       quantity: 2
-      missing_count: 2
     - name: Expert Belt
       set: AR
       number: 87
