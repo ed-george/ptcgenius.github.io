@@ -1,7 +1,6 @@
 ---
 title: Happy Luck
 layout: deck
-in_progress: true
 era: 2010
 description: 2nd Place World Championships 2010 - Seniors - Mychael Bryan
 achievements:
@@ -28,7 +27,6 @@ cards:
       set: SF
       number: 48
       quantity: 4
-      missing_count: 2
     - name: Luxray GL LV.X
       set: RR
       number: 109
@@ -49,12 +47,10 @@ cards:
       set: MT
       number: 14
       quantity: 1
-      missing_count: 1
     - name: Azelf
       set: MT
       number: 4
       quantity: 1
-      missing_count: 1
     - name: Azelf
       set: LA
       number: 19
@@ -72,7 +68,6 @@ cards:
       set: HS
       number: 97
       quantity: 4
-      missing_count: 2
     - name: Felicity's Drawing
       set: GE
       number: 98
@@ -89,12 +84,10 @@ cards:
       set: PL
       number: 118
       quantity: 4
-      missing_count: 3
     - name: Pokémon Rescue
       set: PL
       number: 115
       quantity: 4
-      missing_count: 1
     - name: Super Scoop Up
       set: UL
       number: 83
