@@ -14,14 +14,17 @@ cards:
       set: SF
       number: 65
       quantity: 4
+      missing_count: 3
     - name: Gyarados
       set: SF
       number: 19
       quantity: 3
+      missing_count: 3
     - name: Sableye
       set: SF
       number: 48
       quantity: 4
+      missing_count: 3
     - name: Uxie
       set: LA
       number: 43
@@ -30,6 +33,7 @@ cards:
       set: LA
       number: 146
       quantity: 1
+      missing_count: 1
     - name: Azelf
       set: LA
       number: 19
@@ -38,6 +42,7 @@ cards:
       set: MT
       number: 4
       quantity: 1
+      missing_count: 1
     - name: Floatzel GL
       set: RR
       number: 4
@@ -46,6 +51,7 @@ cards:
       set: RR
       number: 104
       quantity: 1
+      missing_count: 1
     - name: Combee
       set: SF
       number: 57
@@ -54,6 +60,7 @@ cards:
       set: LA
       number: 36
       quantity: 1
+      missing_count: 1
     - name: Unown [Q]
       set: MD
       number: 49
@@ -62,11 +69,13 @@ cards:
       set: LA
       number: 34
       quantity: 1
+      missing_count: 1
   trainers:
     - name: Pokémon Collector
       set: HS
       number: 97
       quantity: 4
+      missing_count: 4
     - name: Felicity's Drawing
       set: GE
       number: 98
@@ -83,6 +92,7 @@ cards:
       set: UL
       number: 80
       quantity: 4
+      missing_count: 1
     - name: Poké Blower +
       set: SF
       number: 88
@@ -103,6 +113,7 @@ cards:
       set: PL
       number: 104
       quantity: 4
+      missing_count: 3
   energy:
     - name: Warp Energy
       set: SF
