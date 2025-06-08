@@ -1,5 +1,5 @@
 ---
-title: LuxChomp
+title: LuxChomp (2009)
 layout: deck
 era: 2009
 description: Jason Klaczynski List
@@ -37,7 +37,7 @@ cards:
       number: 41
       quantity: 1
     - name: Toxicroak G PR
-      set: DP
+      set: DPP
       number: 41
       quantity: 1
     - name: Lucario GL
