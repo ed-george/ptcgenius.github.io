@@ -29,12 +29,11 @@ cards:
       set: AR
       number: AR8
       quantity: 2
-      missing_count: 1
     - name: Arceus [D]
       set: AR
       number: AR1
       quantity: 2
-      missing_count: 2
+      missing_count: 1
     - name: Arceus [P]
       set: AR
       number: AR7
