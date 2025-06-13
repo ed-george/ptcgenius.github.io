@@ -72,7 +72,6 @@ cards:
       set: HS
       number: 97
       quantity: 4
-      missing_count: 2
     - name: Felicity's Drawing
       set: GE
       number: 98

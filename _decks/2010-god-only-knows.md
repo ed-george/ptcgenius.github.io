@@ -63,6 +63,7 @@ cards:
       set: HS
       number: 97
       quantity: 4
+      missing_count: 4
     - name: Professor Oak's New Theory
       set: HS
       number: 101

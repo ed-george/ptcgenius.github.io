@@ -86,7 +86,6 @@ cards:
       set: HS
       number: 97
       quantity: 2
-      missing_count: 2
     - name: Bebe's Search
       set: SW
       number: 119
