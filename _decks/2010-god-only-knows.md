@@ -25,6 +25,7 @@ cards:
       set: AR
       number: AR3
       quantity: 2
+      missing_count: 1
     - name: Arceus [F]
       set: AR
       number: AR8
@@ -43,6 +44,7 @@ cards:
       set: AR
       number: AR6
       quantity: 2
+      missing_count: 1
     - name: Arceus [M]
       set: AR
       number: AR9
@@ -51,6 +53,7 @@ cards:
       set: AR
       number: AR2
       quantity: 1
+      missing_count: 1
     - name: Arceus [W]
       set: AR
       number: AR4

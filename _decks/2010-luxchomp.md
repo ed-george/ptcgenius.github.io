@@ -11,7 +11,6 @@ cards:
       set: SV
       number: 60
       quantity: 3
-      missing_count: 2
     - name: Garchomp C Lv.X
       set: SV
       number: 145
@@ -25,7 +24,6 @@ cards:
       set: RR
       number: 109
       quantity: 1
-      missing_count: 1
     - name: Uxie
       set: LA
       number: 43
@@ -63,7 +61,6 @@ cards:
       set: SV
       number: 3
       quantity: 1
-      missing_count: 1
     - name: Chatot
       set: MD
       number: 55

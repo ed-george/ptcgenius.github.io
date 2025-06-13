@@ -20,32 +20,27 @@ cards:
       set: HS
       number: 6
       quantity: 4
-      missing_count: 4
+      missing_count: 2
     - name: Skiploom
       set: SW
       number: 65
       quantity: 3
-      missing_count: 3
     - name: Hoppip
       set: HS
       number: 67
       quantity: 3
-      missing_count: 3
     - name: Hoppip
       set: SW
       number: 90
       quantity: 1
-      missing_count: 1
     - name: Claydol
       set: GE
       number: 15
       quantity: 3
-      missing_count: 3
     - name: Baltoy
       set: GE
       number: 60
       quantity: 3
-      missing_count: 3
     - name: Uxie
       set: LA
       number: 43
@@ -60,12 +55,10 @@ cards:
       set: LA
       number: 77
       quantity: 4
-      missing_count: 4
     - name: Unown Q
       set: MD
       number: 49
       quantity: 1
-      missing_count: 1
   trainers:
     - name: Pokémon Collector
       set: HS
@@ -76,57 +69,49 @@ cards:
       set: SW
       number: 125
       quantity: 3
-      missing_count: 3
     - name: Judge
       set: UL
       number: 78
       quantity: 2
-      missing_count: 2
+      missing_count: 1
     - name: Bebe's Search
       set: SW
       number: 119
       quantity: 1
-      missing_count: 1
     - name: Pokémon Communication
       set: HS
       number: 98
       quantity: 4
-      missing_count: 4
     - name: Rare Candy
       set: UL
       number: 82
       quantity: 3
-      missing_count: 3
+      missing_count: 2
     - name: PlusPower
       set: UL
       number: 80
       quantity: 3
-      missing_count: 3
     - name: Night Maintenance
       set: MT
       number: 113
       quantity: 2
-      missing_count: 2
     - name: Warp Point
       set: MD
       number: 88
       quantity: 2
-      missing_count: 2
     - name: Luxury Ball
       set: SF
       number: 86
       quantity: 1
-      missing_count: 1
     - name: Expert Belt
       set: AR
       number: 87
       quantity: 1
-      missing_count: 1
     - name: Broken Time-Space
       set: PL
       number: 104
       quantity: 3
-      missing_count: 3
+      missing_count: 2
   energy:
     - name: Grass Energy
       set: HS
