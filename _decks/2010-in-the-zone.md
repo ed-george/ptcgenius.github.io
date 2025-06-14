@@ -27,7 +27,6 @@ cards:
       set: LA
       number: 142
       quantity: 1
-      missing_count: 1
     - name: Baltoy
       set: GE
       number: 60
@@ -44,7 +43,6 @@ cards:
       set: PL
       number: 22
       quantity: 1
-      missing_count: 1
     - name: Uxie
       set: LA
       number: 43
@@ -103,7 +101,6 @@ cards:
       set: RR
       number: 94
       quantity: 2
-      missing_count: 1
   energy:
     - name: Lightning Energy
       set: DP

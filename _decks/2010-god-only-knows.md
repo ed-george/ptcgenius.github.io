@@ -44,7 +44,6 @@ cards:
       set: AR
       number: AR6
       quantity: 2
-      missing_count: 1
     - name: Arceus [M]
       set: AR
       number: AR9

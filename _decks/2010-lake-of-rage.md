@@ -18,7 +18,7 @@ cards:
       set: SF
       number: 19
       quantity: 3
-      missing_count: 3
+      missing_count: 2
     - name: Sableye
       set: SF
       number: 48
@@ -57,7 +57,6 @@ cards:
       set: LA
       number: 36
       quantity: 1
-      missing_count: 1
     - name: Unown [Q]
       set: MD
       number: 49
