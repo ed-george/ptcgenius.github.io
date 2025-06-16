@@ -40,7 +40,6 @@ cards:
       set: MT
       number: 4
       quantity: 1
-      missing_count: 1
     - name: Floatzel GL
       set: RR
       number: 4
@@ -65,7 +64,6 @@ cards:
       set: LA
       number: 34
       quantity: 1
-      missing_count: 1
   trainers:
     - name: Pokémon Collector
       set: HS
