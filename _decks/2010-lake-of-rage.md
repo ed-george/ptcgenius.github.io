@@ -2,7 +2,6 @@
 title: Lake of Rage
 layout: deck
 era: 2010
-in_progress: true
 description: A post-2010 rework of the Gyarados deck to show off its full potential
 achievements:
 
@@ -18,7 +17,6 @@ cards:
       set: SF
       number: 19
       quantity: 3
-      missing_count: 2
     - name: Sableye
       set: SF
       number: 48
@@ -31,7 +29,6 @@ cards:
       set: LA
       number: 146
       quantity: 1
-      missing_count: 1
     - name: Azelf
       set: LA
       number: 19

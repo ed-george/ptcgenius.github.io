@@ -110,7 +110,6 @@ cards:
       set: SW
       number: 130
       quantity: 4
-      missing_count: 4
     - name: Double Colorless Energy
       set: HS
       number: 103
