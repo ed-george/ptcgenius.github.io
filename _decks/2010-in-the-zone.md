@@ -1,7 +1,6 @@
 ---
 title: In The Zone
 layout: deck
-in_progress: true
 era: 2010
 description: Once again, another James G list, making use of Magnezone
 cards:
@@ -22,7 +21,6 @@ cards:
       set: SF
       number: 6
       quantity: 3
-      missing_count: 1
     - name: Magnezone Lv.X
       set: LA
       number: 142
@@ -55,7 +53,6 @@ cards:
       set: GE
       number: 57
       quantity: 1
-      missing_count: 1
     - name: Unown Q
       set: MD
       number: 49

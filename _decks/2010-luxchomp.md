@@ -73,6 +73,7 @@ cards:
       set: GE
       number: 57
       quantity: 1
+      missing_count: 1
     - name: Unown Q
       set: MD
       number: 49
