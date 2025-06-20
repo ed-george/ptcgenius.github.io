@@ -107,7 +107,6 @@ cards:
       set: PL
       number: 118
       quantity: 4
-      missing_count: 1
     - name: Power Spray
       set: PL
       number: 117
