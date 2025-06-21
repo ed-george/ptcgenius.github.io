@@ -18,7 +18,6 @@ cards:
       set: PL
       number: 89
       quantity: 4
-      missing_count: 1
     - name: Kirlia
       set: P7
       number: 8
@@ -27,7 +26,6 @@ cards:
       set: SW
       number: 7
       quantity: 2
-      missing_count: 1
     - name: Gardevoir
       set: PL
       number: 8
@@ -40,12 +38,10 @@ cards:
       set: SW
       number: 6
       quantity: 1
-      missing_count: 1
     - name: Mesprit
       set: LA
       number: 34
       quantity: 3
-      missing_count: 3
     - name: Mesprit LV.X
       set: LA
       number: 143
@@ -55,7 +51,6 @@ cards:
       set: LA
       number: 43
       quantity: 2
-      missing_count: 2
     - name: Uxie LV.X
       set: LA
       number: 146
@@ -83,7 +78,6 @@ cards:
       set: SW
       number: 125
       quantity: 4
-      missing_count: 4
     - name: Bebe's Search
       set: SW
       number: 119
@@ -96,7 +90,6 @@ cards:
       set: UL
       number: 78
       quantity: 1
-      missing_count: 1
     - name: Looker's Investigation
       set: PL
       number: 109
@@ -113,7 +106,6 @@ cards:
       set: UL
       number: 82
       quantity: 4
-      missing_count: 3
     - name: Pokémon Communication
       set: HS
       number: 98
@@ -130,7 +122,6 @@ cards:
       set: SV
       number: 140
       quantity: 1
-      missing_count: 1
     - name: Warp Point
       set: MD
       number: 88

@@ -1,7 +1,6 @@
 ---
 title: LuxChomp (2010)
 layout: deck
-in_progress: true
 era: 2010
 description: Another James G list, making use of multiple techs in a classic LuxChomp list
 links:
@@ -19,7 +18,6 @@ cards:
       set: RR
       number: 9
       quantity: 2
-      missing_count: 2
     - name: Luxray GL Lv.X
       set: RR
       number: 109
@@ -32,7 +30,6 @@ cards:
       set: LA
       number: 146
       quantity: 1
-      missing_count: 1
     - name: Crobat G
       set: PL
       number: 47
@@ -73,7 +70,6 @@ cards:
       set: GE
       number: 57
       quantity: 1
-      missing_count: 1
     - name: Unown Q
       set: MD
       number: 49

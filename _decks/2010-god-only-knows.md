@@ -20,7 +20,6 @@ cards:
       set: DPP
       number: 53
       quantity: 4
-      missing_count: 1
     - name: Arceus [R]
       set: AR
       number: AR3
@@ -60,7 +59,6 @@ cards:
       set: HS
       number: 97
       quantity: 4
-      missing_count: 4
     - name: Professor Oak's New Theory
       set: HS
       number: 101
