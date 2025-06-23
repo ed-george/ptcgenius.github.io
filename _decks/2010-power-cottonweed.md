@@ -20,7 +20,7 @@ cards:
       set: HS
       number: 6
       quantity: 4
-      missing_count: 2
+      missing_count: 1
     - name: Skiploom
       set: SW
       number: 65
@@ -50,7 +50,6 @@ cards:
       set: PL
       number: 47
       quantity: 1
-      missing_count: 1
     - name: Unown R
       set: LA
       number: 77
@@ -64,7 +63,7 @@ cards:
       set: HS
       number: 97
       quantity: 4
-      missing_count: 4
+      missing_count: 1
     - name: Roseanne's Research
       set: SW
       number: 125
@@ -73,7 +72,6 @@ cards:
       set: UL
       number: 78
       quantity: 2
-      missing_count: 1
     - name: Bebe's Search
       set: SW
       number: 119
@@ -86,7 +84,7 @@ cards:
       set: UL
       number: 82
       quantity: 3
-      missing_count: 2
+      missing_count: 1
     - name: PlusPower
       set: UL
       number: 80
@@ -111,7 +109,6 @@ cards:
       set: PL
       number: 104
       quantity: 3
-      missing_count: 2
   energy:
     - name: Grass Energy
       set: HS
