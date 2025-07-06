@@ -89,7 +89,6 @@ cards:
       set: RR
       number: 90
       quantity: 1
-      missing_count: 1
     - name: Aaron's Collection
       set: RR
       number: 88

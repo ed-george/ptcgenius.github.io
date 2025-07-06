@@ -1,7 +1,6 @@
 ---
 title: Power Cottonweed
 layout: deck
-in_progress: true
 era: 2010
 description: 1st Place World Championships 2010 - Juniors - Yuka Furusawa
 achievements:
@@ -20,7 +19,6 @@ cards:
       set: HS
       number: 6
       quantity: 4
-      missing_count: 1
     - name: Skiploom
       set: SW
       number: 65
@@ -45,7 +43,6 @@ cards:
       set: LA
       number: 43
       quantity: 2
-      missing_count: 2
     - name: Crobat G
       set: PL
       number: 47
@@ -63,7 +60,6 @@ cards:
       set: HS
       number: 97
       quantity: 4
-      missing_count: 1
     - name: Roseanne's Research
       set: SW
       number: 125
@@ -84,7 +80,6 @@ cards:
       set: UL
       number: 82
       quantity: 3
-      missing_count: 1
     - name: PlusPower
       set: UL
       number: 80
