@@ -1,7 +1,6 @@
 ---
 title: DialgaChomp
 layout: deck
-in_progress: true
 era: 2010
 description: What if Garchomp had a time wizard as a partner...
 links:
@@ -31,7 +30,6 @@ cards:
       set: LA
       number: 146
       quantity: 1
-      missing_count: 1
     - name: Toxicroak G
       set: DPP
       number: 41
