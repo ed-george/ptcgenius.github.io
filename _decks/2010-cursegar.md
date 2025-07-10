@@ -3,8 +3,7 @@ title: Cursegar
 layout: deck
 era: 2010
 description: 1st place list by teafew played during James G Tournament #1 in March 2025
-achievements:
-
+in_progress: true
 links:
   - href: https://play.limitlesstcg.com/tournament/67c59c598f99a44fce341f50/player/teafew/decklist
     title: Limitless Page
