@@ -17,7 +17,6 @@ cards:
       set: DP
       number: 50
       quantity: 2
-      missing_count: 1
     - name: Gengar
       set: SF
       number: 18
@@ -42,7 +41,6 @@ cards:
       set: SV
       number: 89
       quantity: 2
-      missing_count: 2
     - name: Claydol
       set: GE
       number: 15
@@ -64,7 +62,6 @@ cards:
       set: MT
       number: 69
       quantity: 1
-      missing_count: 1
     - name: Alakazam
       set: MT
       number: 2
@@ -77,7 +74,6 @@ cards:
       set: LA
       number: 19
       quantity: 1
-      missing_count: 1
   trainers:
     - name: Bebe's Search
       set: RR

@@ -18,7 +18,6 @@ cards:
       set: BS
       number: 3
       quantity: 3
-      missing_count: 3
     - name: Ditto
       set: FO
       number: 18
@@ -33,7 +32,7 @@ cards:
       set: BS
       number: 78
       quantity: 4
-      missing_count: 2
+      missing_count: 1
     - name: Energy Retrieval
       set: BS
       number: 81

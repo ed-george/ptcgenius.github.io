@@ -13,7 +13,7 @@ layout: default
 
   {% assign decks_by_era = site.decks | where_exp: "item", "item.in_progress != true" | group_by: "era" %}
   {% for era in decks_by_era %}
-    <h1 class="archive-year">{{ era.name }}</h1>
+    <h1 class="archive-year" id="{{ era.name }}">{{ era.name }}</h1>
     {% for deck in era.items %}
       <div class="row archive-item mb-3">
         <a href="{{ deck.url | relative_url}}" class="col archive-title fs-4 align-self-center">{{ deck.title }}</a>

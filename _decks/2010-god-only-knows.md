@@ -1,7 +1,6 @@
 ---
 title: God Only Knows
 layout: deck
-in_progress: true
 era: 2010
 description: A James G list utilising our true lord and saviour, Arceus, in all its forms
 achievements:
@@ -15,7 +14,6 @@ cards:
       set: AR
       number: AR5
       quantity: 4
-      missing_count: 1
     - name: Arceus LV.X
       set: DPP
       number: 53
