@@ -2,8 +2,10 @@
 title: Turbo Lickitung Scyther
 layout: deck
 era: 2000
-in_progress: true
-description: Over 25 years later, turbo Lickitung Scyther is here
+description: Over 25 years later, turbo Lickitung Scyther is here (ogrehvnds)
+links:
+  - href: https://play.limitlesstcg.com/tournament/68340cb227d8bc24cf247057/player/ogrehvnds/decklist
+    title: Limitless Page
 cards:
   pokemon:
     - name: Scyther
@@ -22,7 +24,6 @@ cards:
       set: FO
       number: 18
       quantity: 2
-      missing_count: 1
   trainers:
     - name: Energy Removal
       set: BS
@@ -32,7 +33,6 @@ cards:
       set: BS
       number: 78
       quantity: 4
-      missing_count: 1
     - name: Energy Retrieval
       set: BS
       number: 81
@@ -49,7 +49,6 @@ cards:
       set: BS
       number: 74
       quantity: 4
-      missing_count: 2
     - name: PlusPower
       set: BS
       number: 84
