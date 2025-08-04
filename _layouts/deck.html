@@ -80,6 +80,9 @@ layout: default
    <span class="smol text-muted text-end mb-1">Decklist image generated via <a href="https://limitlesstcg.com/" class="text-reset" target="_blank">Limitless TCG</a></span>
    <img src="{{site.baseurl}}/assets/images/decks/{{ page.slug }}.png" alt="{{ page.title }}">
    {% endif %}
+   <div class="container mb-3">
+     <button id="copyButton" type="button" class="btn btn-secondary btn-sm float-end">Copy to TCGOne</button>
+   </div>
    <div class="col-12 col-md-4 mb-3">
       <ul class="list-group">
          <li class="list-group-item active" aria-current="true">Pokémon ({{ total_pokemon }})</li>
@@ -135,3 +138,28 @@ layout: default
 <hr>
 <span class="report-issue text-muted">Does something look wrong? - Report a decklist issue <a href="{{ site.repository.issue-template-url.deck }}{{ page.title | url_encode }}+{{ page.era | url_encode }}+-+%28{{page.name | url_encode}}%29">here</a></span>
 <hr>
+
+{% assign decklist = "" %}
+{% for pokemon in page.cards.pokemon %}
+  {% assign item = pokemon.quantity | append: ' ' | append: pokemon.name | append: ' ' | append: pokemon.set | append: ' ' | append: pokemon.number %}
+  {% assign decklist = decklist | append: item | append: '\n' %}
+{% endfor %}
+{% for trainer in page.cards.trainers %}
+  {% assign item = trainer.quantity | append: ' ' | append: trainer.name | append: ' ' | append: trainer.set | append: ' ' | append: trainer.number %}
+  {% assign decklist = decklist | append: item | append: '\n' %}
+{% endfor %}
+{% for energy in page.cards.energy %}
+  {% assign item = energy.quantity | append: ' ' | append: energy.name | append: ' ' | append: energy.set | append: ' ' | append: energy.number %}
+  {% assign decklist = decklist | append: item | append: '\n' %}
+{% endfor %}
+
+<script>
+    const yamlOutput = "{{ decklist }}";
+    const button = document.getElementById('copyButton');
+    button.addEventListener('click', () => {
+      navigator.clipboard.writeText(yamlOutput).then(() => {
+        button.textContent = 'Copied';
+        setTimeout(() => { button.textContent = 'Copy to TCGOne'; }, 2000);
+      });
+    });
+</script>

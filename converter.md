@@ -146,6 +146,7 @@ function convertToYaml() {
 title: ${yaml.title}
 layout: ${yaml.layout}
 era: ${yaml.era}
+in_progress: true
 description: ${yaml.description}
 achievements:
 ${yaml.achievements.map(a => `
