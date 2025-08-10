@@ -13,17 +13,14 @@ cards:
       set: HP
       number: 65
       quantity: 4
-      missing_count: 2
     - name: Exeggutor
       set: HP
       number: 41
       quantity: 4
-      missing_count: 1
     - name: Pikachu
       set: HP
       number: 79
       quantity: 4
-      missing_count: 4
     - name: Raichu
       set: HP
       number: 15
@@ -33,12 +30,11 @@ cards:
       set: DS
       number: 70
       quantity: 2
-      missing_count: 2
+      missing_count: 1
     - name: Holon's Castform
       set: HP
       number: 44
       quantity: 2
-      missing_count: 1
   trainers:
     - name: Prof. Oak's Research
       set: RG
@@ -48,7 +44,7 @@ cards:
       set: DF
       number: 75
       quantity: 4
-      missing_count: 3
+      missing_count: 2
     - name: Steven's Advice
       set: PK
       number: 83
@@ -82,7 +78,6 @@ cards:
       set: LM
       number: 72
       quantity: 3
-      missing_count: 2
     - name: Desert Ruins
       set: HL
       number: 88

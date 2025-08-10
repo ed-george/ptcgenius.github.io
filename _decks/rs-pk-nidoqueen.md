@@ -14,17 +14,16 @@ cards:
       set: RG
       number: 70
       quantity: 4
-      missing_count: 3
     - name: Nidorina
       set: RG
       number: 40
       quantity: 3
-      missing_count: 3
+      missing_count: 2
     - name: Nidoqueen
       set: RG
       number: 9
       quantity: 3
-      missing_count: 3
+      missing_count: 1
     - name: Nidoqueen
       set: DF
       number: 7
@@ -34,12 +33,10 @@ cards:
       set: RG
       number: 73
       quantity: 3
-      missing_count: 2
     - name: Pidgeotto
       set: RG
       number: 45
       quantity: 2
-      missing_count: 2
     - name: Pidgeot
       set: RG
       number: 10
@@ -49,7 +46,6 @@ cards:
       set: EM
       number: 49
       quantity: 1
-      missing_count: 1
     - name: Milotic
       set: HL
       number: 12
@@ -64,7 +60,6 @@ cards:
       set: TRR
       number: 86
       quantity: 4
-      missing_count: 3
     - name: Celio's Network
       set: CG
       number: 73
@@ -81,7 +76,6 @@ cards:
       set: HP
       number: 90
       quantity: 4
-      missing_count: 2
     - name: Great Ball
       set: PK
       number: 77
@@ -98,13 +92,12 @@ cards:
       set: HL
       number: 88
       quantity: 4
-      missing_count: 2
+      missing_count: 1
   energy:
     - name: Double Rainbow Energy
       set: CG
       number: 88
       quantity: 4
-      missing_count: 1
     - name: Heal Energy
       set: DX
       number: 94
