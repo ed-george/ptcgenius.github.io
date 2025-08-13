@@ -1,9 +1,8 @@
 ---
 title: Zekrom Eelektrik
 layout: deck
-in_progress: true
 era: 2012
-description: A Pokémon TCG deck.
+description: The OG Eels
 achievements:
   - position: 3rd
     competition: European Challenge Cup
@@ -18,7 +17,6 @@ cards:
       set: NVI
       number: 39
       quantity: 3
-      missing_count: 2
     - name: Tynamo
       set: NVI
       number: 38
@@ -35,7 +33,6 @@ cards:
       set: NXD
       number: 54
       quantity: 2
-      missing_count: 1
     - name: Cleffa
       set: CL
       number: 24
@@ -45,7 +42,6 @@ cards:
       set: HS
       number: 97
       quantity: 4
-      missing_count: 4
     - name: Professor Juniper
       set: BLW
       number: 101
@@ -103,5 +99,4 @@ cards:
       set: NXD
       number: 92
       quantity: 4
-      missing_count: 3
 ---
