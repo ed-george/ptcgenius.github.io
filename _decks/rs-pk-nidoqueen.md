@@ -18,7 +18,6 @@ cards:
       set: RG
       number: 40
       quantity: 3
-      missing_count: 2
     - name: Nidoqueen
       set: RG
       number: 9
@@ -92,7 +91,6 @@ cards:
       set: HL
       number: 88
       quantity: 4
-      missing_count: 1
   energy:
     - name: Double Rainbow Energy
       set: CG

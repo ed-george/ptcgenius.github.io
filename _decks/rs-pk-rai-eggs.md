@@ -30,7 +30,6 @@ cards:
       set: DS
       number: 70
       quantity: 2
-      missing_count: 1
     - name: Holon's Castform
       set: HP
       number: 44
@@ -88,7 +87,7 @@ cards:
       set: CG
       number: 88
       quantity: 4
-      missing_count: 4
+      missing_count: 3
     - name: Scramble Energy
       set: DF
       number: 89
