@@ -45,7 +45,7 @@ cards:
       number: 4
       quantity: 1
     - name: Relicanth
-      set: SF
+      set: SV
       number: 79
       quantity: 1
     - name: Uxie
