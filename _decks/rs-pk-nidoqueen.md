@@ -22,12 +22,10 @@ cards:
       set: RG
       number: 9
       quantity: 3
-      missing_count: 1
     - name: Nidoqueen
       set: DF
       number: 7
       quantity: 1
-      missing_count: 1
     - name: Pidgey
       set: RG
       number: 73
@@ -49,7 +47,6 @@ cards:
       set: HL
       number: 12
       quantity: 1
-      missing_count: 1
     - name: Holon's Magneton
       set: DS
       number: 22

@@ -22,7 +22,6 @@ cards:
       set: DRX
       number: 86
       quantity: 1
-      missing_count: 1
     - name: Gabite
       set: DRX
       number: 89
@@ -31,17 +30,15 @@ cards:
       set: DRX
       number: 90
       quantity: 4
-      missing_count: 4
+      missing_count: 1
     - name: Swablu
       set: DRX
       number: 104
       quantity: 3
-      missing_count: 3
     - name: Altaria
       set: DRX
       number: 84
       quantity: 3
-      missing_count: 2
     - name: Emolga
       set: DRX
       number: 45
@@ -88,12 +85,10 @@ cards:
       set: DEX
       number: 111
       quantity: 3
-      missing_count: 2
     - name: Super Rod
       set: DRV
       number: 20
       quantity: 2
-      missing_count: 1
     - name: Switch
       set: BLW
       number: 104

@@ -43,7 +43,6 @@ cards:
       set: DF
       number: 75
       quantity: 4
-      missing_count: 2
     - name: Steven's Advice
       set: PK
       number: 83
@@ -68,7 +67,6 @@ cards:
       set: DS
       number: 98
       quantity: 4
-      missing_count: 4
     - name: Pokémon Retriever
       set: TRR
       number: 84
@@ -87,7 +85,7 @@ cards:
       set: CG
       number: 88
       quantity: 4
-      missing_count: 3
+      missing_count: 2
     - name: Scramble Energy
       set: DF
       number: 89
