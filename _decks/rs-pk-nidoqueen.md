@@ -2,7 +2,6 @@
 title: Nidoqueen Pidgeot
 layout: deck
 era: RS-PK
-in_progress: true
 description: Yaaass Queen
 achievements:
 links:
@@ -38,7 +37,6 @@ cards:
       set: RG
       number: 10
       quantity: 2
-      missing_count: 1
     - name: Feebas
       set: EM
       number: 49

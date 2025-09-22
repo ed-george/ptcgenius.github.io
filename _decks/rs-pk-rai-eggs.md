@@ -25,7 +25,7 @@ cards:
       set: HP
       number: 15
       quantity: 4
-      missing_count: 4
+      missing_count: 1
     - name: Holon's Magnemite
       set: DS
       number: 70
@@ -79,7 +79,6 @@ cards:
       set: HL
       number: 88
       quantity: 2
-      missing_count: 2
   energy:
     - name: Double Rainbow Energy
       set: CG
