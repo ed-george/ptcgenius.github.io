@@ -3,7 +3,6 @@ title: Rai-Eggs
 layout: deck
 era: RS-PK
 description: Funny Rats and Trees
-in_progress: true
 links:
   - href: https://holonresearchtower.com/decks?identifier=raieggs
     title: Holon Research Tower
@@ -25,7 +24,6 @@ cards:
       set: HP
       number: 15
       quantity: 4
-      missing_count: 1
     - name: Holon's Magnemite
       set: DS
       number: 70
@@ -84,7 +82,6 @@ cards:
       set: CG
       number: 88
       quantity: 4
-      missing_count: 2
     - name: Scramble Energy
       set: DF
       number: 89
