@@ -59,6 +59,8 @@ Over the years I have found a whole heap of great resources that have helped me 
 * [Holon Research Tower](http://holonresearchtower.com/) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
 * [The Sideways Decks](https://sites.google.com/view/sidedeckways/home) &bull; <span class="badge rounded-pill bg-success">Retro</span>
 * [Pokumon](https://pokumon.com/) &bull; <span class="badge rounded-pill bg-success">Retro</span>
+* [RSPK Info](https://sites.google.com/view/rspk47/home?authuser=0) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
+* [RSPK FAQ](https://docs.google.com/document/d/1UTcaVFfJM-WgxyoHp4DXeIZ6JAUGWUaCdNUFE8yxZ1U/edit?usp=sharing) &bull; <span class="badge rounded-pill bg-warning">RS-PK</span>
 * Content creators / players such as:
   * [TheJWittz](https://www.youtube.com/@TheJWittz/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
   * [Pooka](https://www.youtube.com/@TheTopCut/videos) &bull; <span class="badge rounded-pill bg-success">Retro</span>
