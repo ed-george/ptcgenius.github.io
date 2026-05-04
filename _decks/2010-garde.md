@@ -2,7 +2,6 @@
 title: Garde AMU
 layout: deck
 era: 2010
-in_progress: true
 description: "\"Your supporters are my supporters\" - communism.dec"
 achievements:
   - position: 4th
@@ -46,7 +45,6 @@ cards:
       set: LA
       number: 143
       quantity: 1
-      missing_count: 1
     - name: Uxie
       set: LA
       number: 43
@@ -67,7 +65,6 @@ cards:
       set: LA
       number: 140
       quantity: 1
-      missing_count: 1
     - name: Spiritomb
       set: AR
       number: 32
