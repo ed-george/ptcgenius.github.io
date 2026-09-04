@@ -68,6 +68,7 @@ footer-links:
   twitter: ptcgenius
   website: https://spght.dev
   discord: sp4ghetticode
+  note: ptcgenius
 
 plugins:
   - jekyll-seo-tag

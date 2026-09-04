@@ -25,7 +25,7 @@ redirect_from:
 {% else %}
   <div class="d-flex justify-content-center align-items-center">
     <div class="col-md-12 text-center">
-      <h4>Blog posts coming soon!</h4>
+      <h4>Now available on <a href="https://note.com/ptcgenius">note.com</a></h4>
     </div>
   </div>
 {% endif %}
